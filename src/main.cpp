@@ -1,6 +1,4 @@
 #include "main.h"
-#include "autons.h"
-#include "auton_selector.hpp"
 
 /**
  * Runs initialization code. This occurs as soon as the program is started.
