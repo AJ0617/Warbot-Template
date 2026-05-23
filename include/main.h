@@ -42,8 +42,8 @@
 //#include "okapi/api.hpp"
 #include "autons.h"
 #include "auton_selector.hpp"
-#include "..\src\exampleSubsystem\example.hpp"
-#include "warbotTemplate\Util\util.hpp"
+#include "../src/exampleSubsystem/example.hpp"
+#include "warbotTemplate/Util/util.hpp"
 
 /**
  * If you find doing pros::Motor() to be tedious and you'd prefer just to do
