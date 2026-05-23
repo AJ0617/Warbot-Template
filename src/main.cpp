@@ -1,5 +1,5 @@
 #include "main.h"
-#include "warbotTemplate/Util/util.hpp"
+#include "warbotTemplate/util.hpp"
 /**
  * Runs initialization code. This occurs as soon as the program is started.
  *
