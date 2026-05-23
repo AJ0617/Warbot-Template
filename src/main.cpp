@@ -8,7 +8,7 @@
  */
 void initialize() {
 
-	drawLogo();
+	warbots::drawLogo();
 	register_autons();
 	selector.init();
 	// screenPrint()

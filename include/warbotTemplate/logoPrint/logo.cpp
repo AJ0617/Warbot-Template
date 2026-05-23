@@ -1,5 +1,9 @@
 #include "main.h"
 #include "logo_data.hpp"
+using namespace warbots;
+
+namespace warbots{
+
 
 void drawLogo(int x_offset, int y_offset) {  // default: centered 100×100 on 480×272
     pros::screen::copy_area(
@@ -10,4 +14,5 @@ void drawLogo(int x_offset, int y_offset) {  // default: centered 100×100 on 48
         (uint32_t*)logo_pixels,
         LOGO_WIDTH
     );
+}
 }
