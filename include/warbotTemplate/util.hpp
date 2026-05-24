@@ -5,16 +5,20 @@
 namespace warbots {
 
     inline void screenPrint(const std::string text, int line = 0,
-                            pros::text_format_e_t fmt = pros::E_TEXT_MEDIUM) {
+                            pros::text_format_e_t fmt = pros::E_TEXT_MEDIUM,
+                            uint32_t bg_color = 0x78b839,
+                            uint32_t text_color = 0x000000) {
+        pros::screen::set_eraser(bg_color);
+        pros::screen::set_pen(text_color);
         pros::screen::print(fmt, line, "%s", text.c_str());
     }
 
-    inline void drawBackground(uint32_t color = 0x1A1A2E) {
+    inline void drawBackground(uint32_t color = 0x78b839) {
         pros::screen::set_eraser(color);
         pros::screen::erase();
     }
 
-    inline void drawLogo(int x_offset = 190, int y_offset = 86, uint32_t bg_color = 555555) {
+    inline void drawLogo(int x_offset = 350, int y_offset = 50, uint32_t bg_color = 0x78b839) {
         static uint32_t modified_pixels[LOGO_HEIGHT][LOGO_WIDTH];
         static bool initialized = false;
         if (!initialized) {

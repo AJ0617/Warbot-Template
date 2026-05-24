@@ -16,7 +16,7 @@ void register_autons() {
         //{"Example Auto", exampleAuto},
         {"Red Auto",  redAuto},
         {"Blue Auto", blueAuto},
-        {"Skills",    skills},
+        {"Skills",    skills}
     });
 }
 

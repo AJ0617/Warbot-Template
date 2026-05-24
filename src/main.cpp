@@ -22,11 +22,14 @@ void initialize() {
 		while (true) {
 			drawLogo();
 			pros::delay(20);
+			warbots::screenPrint("Warbot-Template", 7, pros::E_TEXT_LARGE_CENTER);
+			
 		}
 	});
-
+	
     pros::lcd::initialize();
 	pros::delay(2000);
+	pros::lcd::clear_line(7);
     logo_task.remove();
 	register_autons();
 	selector.init();
@@ -80,21 +83,10 @@ void autonomous() {
  */
 void opcontrol() {
 	pros::Controller master(pros::E_CONTROLLER_MASTER);
-	pros::MotorGroup left_mg({1, -2, 3});    // Creates a motor group with forwards ports 1 & 3 and reversed port 2
-	pros::MotorGroup right_mg({-4, 5, -6});  // Creates a motor group with forwards port 5 and reversed ports 4 & 6
-	
-	// warbots::drawBackground();
+
 	while (true) {
 		warbots::drawLogo();
-		// pros::lcd::print(0, "%d %d %d", (pros::lcd::read_buttons() & LCD_BTN_LEFT) >> 2,
-		//                  (pros::lcd::read_buttons() & LCD_BTN_CENTER) >> 1,
-		//                  (pros::lcd::read_buttons() & LCD_BTN_RIGHT) >> 0);
-
-		// Arcade control scheme
-		int dir = master.get_analog(ANALOG_LEFT_Y);
-		int turn = master.get_analog(ANALOG_RIGHT_X);
-		left_mg.move(dir - turn);
-		right_mg.move(dir + turn);
+		drive.control(master);
 		pros::delay(20);
 	}
 }
