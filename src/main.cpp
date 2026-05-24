@@ -1,5 +1,16 @@
 #include "main.h"
 #include "warbotTemplate/util.hpp"
+
+warbots::Drive drive(
+	{1,2},// Left Motors ID
+	{3,4}, //Right Motors ID
+	5, //IMU/Inertial Sensor Port
+	1.0, //Wheel Diameter
+	1.0 //Motor Ticks
+);
+
+
+
 /**
  * Runs initialization code. This occurs as soon as the program is started.
  *
@@ -7,11 +18,18 @@
  * to keep execution time for this mode under a few seconds.
  */
 void initialize() {
+	 pros::Task logo_task([]() {
+		while (true) {
+			drawLogo();
+			pros::delay(20);
+		}
+	});
 
-	warbots::drawLogo();
+    pros::lcd::initialize();
+	pros::delay(2000);
+    logo_task.remove();
 	register_autons();
 	selector.init();
-	// screenPrint()
 }
 
 /**
@@ -61,14 +79,16 @@ void autonomous() {
  * task, not resume it from where it left off.
  */
 void opcontrol() {
-pros::Controller master(pros::E_CONTROLLER_MASTER);
-pros::MotorGroup left_mg({1, -2, 3});    // Creates a motor group with forwards ports 1 & 3 and reversed port 2
-pros::MotorGroup right_mg({-4, 5, -6});  // Creates a motor group with forwards port 5 and reversed ports 4 & 6
-
+	pros::Controller master(pros::E_CONTROLLER_MASTER);
+	pros::MotorGroup left_mg({1, -2, 3});    // Creates a motor group with forwards ports 1 & 3 and reversed port 2
+	pros::MotorGroup right_mg({-4, 5, -6});  // Creates a motor group with forwards port 5 and reversed ports 4 & 6
+	
+	// warbots::drawBackground();
 	while (true) {
-		pros::lcd::print(0, "%d %d %d", (pros::lcd::read_buttons() & LCD_BTN_LEFT) >> 2,
-		                 (pros::lcd::read_buttons() & LCD_BTN_CENTER) >> 1,
-		                 (pros::lcd::read_buttons() & LCD_BTN_RIGHT) >> 0);
+		warbots::drawLogo();
+		// pros::lcd::print(0, "%d %d %d", (pros::lcd::read_buttons() & LCD_BTN_LEFT) >> 2,
+		//                  (pros::lcd::read_buttons() & LCD_BTN_CENTER) >> 1,
+		//                  (pros::lcd::read_buttons() & LCD_BTN_RIGHT) >> 0);
 
 		// Arcade control scheme
 		int dir = master.get_analog(ANALOG_LEFT_Y);

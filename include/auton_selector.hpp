@@ -25,6 +25,7 @@ public:
     void page_left() {
         auton_page_current = (auton_page_current - 1 + (int)autons.size()) % (int)autons.size();
         selected_auton_print();
+        
     }
 
     void page_right() {
