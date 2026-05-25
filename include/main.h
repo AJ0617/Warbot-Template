@@ -42,9 +42,10 @@
 //#include "okapi/api.hpp"
 #include "autons.h"
 #include "auton_selector.hpp"
-#include "../src/exampleSubsystem/example.hpp"
 #include "warbotTemplate/util.hpp"
 #include "warbotTemplate/drive.hpp"
+#include "warbotTemplate/pid.hpp"
+#include "../src/exampleSubsystem/example.hpp"
 /**
  * If you find doing pros::Motor() to be tedious and you'd prefer just to do
  * Motor, you can use the namespace with the following commented out line.

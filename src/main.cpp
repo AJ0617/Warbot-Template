@@ -3,10 +3,10 @@
 
 warbots::Drive drive(
 	{10},// Left Motors ID
-	{-4}, //Right Motors ID
-	21, //IMU/Inertial Sensor Port
-	1.0, //Wheel Diameter
-	1.0 //Motor Ticks
+	{-4}, // Right Motors ID
+	21, // IMU/Inertial Sensor Port
+	3.25, // Wheel Diameter
+	1.0 // Gear Ratio
 );
 
 
@@ -90,8 +90,10 @@ void opcontrol() {
 	// drive.setDriveType(warbots::Drive::SPLIT_ARCADE);
 	// drive.setDriveType(warbots::Drive::FLIPPED_SPLIT_ARCADE);
 	while (true) {
+		warbots::screenPrint("Arm: " + warbots::doubleToString(arm.get_position(), 2), 2, pros::E_TEXT_MEDIUM);
 		warbots::drawLogo();
 		drive.control(master);
+		examplePIDFunction(1400); // drive arm to 200 encoder ticks
 		pros::delay(20);
 	}
 }

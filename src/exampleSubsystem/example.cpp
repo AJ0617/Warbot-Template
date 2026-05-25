@@ -1,5 +1,7 @@
 #include "main.h"
 
-void exampleFunction(){
-    intake.move(127);
+void examplePIDFunction(double goal) {
+    double current = arm.get_position();
+    double output  = warbots::calculatePID(current, goal, armPID);
+    arm.move((int32_t)output);
 }

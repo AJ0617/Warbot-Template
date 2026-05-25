@@ -8,7 +8,7 @@ public:
 
 //Constructors
 
-Drive(std::vector<int> leftMotorPorts, std::vector<int> rightMotorPorts, int ImuPort, double wheelDiameter, double ticks, double ratio = 1.0)
+Drive(std::vector<int> leftMotorPorts, std::vector<int> rightMotorPorts, int ImuPort, double wheelDiameter, double ratio = 1.0)
     : imu(ImuPort)
 {
     for (int port : leftMotorPorts) {

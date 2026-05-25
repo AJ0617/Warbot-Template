@@ -18,6 +18,12 @@ namespace warbots {
         pros::screen::erase();
     }
 
+    inline std::string doubleToString(double value, int decimals = 2) {
+        char buf[32];
+        snprintf(buf, sizeof(buf), "%.*f", decimals, value);
+        return std::string(buf);
+    }
+
     inline void drawLogo(int x_offset = 350, int y_offset = 50, uint32_t bg_color = 0x78b839) {
         static uint32_t modified_pixels[LOGO_HEIGHT][LOGO_WIDTH];
         static bool initialized = false;
