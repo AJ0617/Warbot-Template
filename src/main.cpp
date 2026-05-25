@@ -2,9 +2,9 @@
 #include "warbotTemplate/util.hpp"
 
 warbots::Drive drive(
-	{1,2},// Left Motors ID
-	{3,4}, //Right Motors ID
-	5, //IMU/Inertial Sensor Port
+	{10},// Left Motors ID
+	{-4}, //Right Motors ID
+	21, //IMU/Inertial Sensor Port
 	1.0, //Wheel Diameter
 	1.0 //Motor Ticks
 );
@@ -83,7 +83,12 @@ void autonomous() {
  */
 void opcontrol() {
 	pros::Controller master(pros::E_CONTROLLER_MASTER);
-
+	
+	drive.setDriveType(warbots::Drive::TANK);
+	// drive.setDriveType(warbots::Drive::SINGLE_ARCADE);
+	// drive.setDriveType(warbots::Drive::FLIPPED_SINGLE_ARCADE);
+	// drive.setDriveType(warbots::Drive::SPLIT_ARCADE);
+	// drive.setDriveType(warbots::Drive::FLIPPED_SPLIT_ARCADE);
 	while (true) {
 		warbots::drawLogo();
 		drive.control(master);

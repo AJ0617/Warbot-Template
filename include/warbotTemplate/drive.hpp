@@ -35,6 +35,17 @@ std::vector<pros::Motor> rightMotors;
 //Imu Port
 pros::Imu imu;
 
+/* DRIVER CONTROL---------------------------------------
+This code is used to let the user pick the type of driving they would like to use
+The user can choose from 5 different configurations:
+
+Tank drive: left joystick controls the left side of the drivetrain and the right joystick controls the right side of the drivetrain
+Single Arcade: The left joystick controls both turning and driving
+Flipped Single Arcade: The right joystick controls both turning and driving
+Split Arcade: The left joystick controls forward and backwards, the right joystick controls turing left and right
+Flipped Split Arcade: the left joystick controls turning left and right, the right joystick controls driving forward and back
+
+*/
 enum driveControlType{
     TANK = 0,
     SINGLE_ARCADE = 1,
@@ -62,23 +73,23 @@ void control(pros::Controller& controller){
         break;
 
         case SINGLE_ARCADE:
-            moveLeftSide(lefty - leftx);  
-            moveRightSide(lefty + leftx);  
+            moveLeftSide(lefty + leftx);  
+            moveRightSide(lefty - leftx);  
         break;
 
         case FLIPPED_SINGLE_ARCADE:
-            moveLeftSide(righty - rightx);  
-            moveRightSide(righty + rightx);  
+            moveLeftSide(righty + rightx);  
+            moveRightSide(righty - rightx);  
         break;
 
         case SPLIT_ARCADE:
-            moveLeftSide(lefty - rightx);  
-            moveRightSide(lefty + rightx);  
+            moveLeftSide(lefty + rightx);
+            moveRightSide(lefty - rightx);
         break;
 
         case FLIPPED_SPLIT_ARCADE:
-            moveLeftSide(righty - leftx); 
-            moveRightSide(righty + leftx);  
+            moveLeftSide(righty + leftx); 
+            moveRightSide(righty - leftx);  
         break;
     }
 }
@@ -94,6 +105,7 @@ void moveRightSide(int power) {
         m.move(power);
     }
 }
+
 
 }; // class Drive
 } // namespace warbots
