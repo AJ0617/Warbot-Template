@@ -2,11 +2,12 @@
 #include "warbotTemplate/util.hpp"
 
 warbots::Drive drive(
-	{10},// Left Motors ID
-	{-4}, // Right Motors ID
-	21, // IMU/Inertial Sensor Port
-	3.25, // Wheel Diameter
-	1.0 // Gear Ratio
+	{10},  // Left Motors ID
+	{-4},  // Right Motors ID
+	3.25,  // Wheel Diameter
+	1.0,   // Gear Ratio
+	false,  // Are you using an IMU on the Robot?
+	0   // If you are using an IMU, put the motor port here, if you are not using an IMU, leave at 0
 );
 
 
@@ -18,7 +19,7 @@ warbots::Drive drive(
  * to keep execution time for this mode under a few seconds.
  */
 void initialize() {
-	 pros::Task logo_task([]() {
+	pros::Task logo_task([]() {
 		while (true) {
 			drawLogo();
 			pros::delay(20);
@@ -26,12 +27,20 @@ void initialize() {
 			
 		}
 	});
+
+	//Have Rotation Sensors/Odom Pods on your drivetrain?
+	//Add them Here!!
+	// drive.addHorizontalTrackingWheel(15, 3.25);
+	// drive.addVerticalTrackingWheel(16, 3.25);
+
+	drive.setOdomConfig(warbots::Drive::odomConfig::MOTOR_ENCODERS);
+	drive.initImu();
+	drive.resetPose();
 	
+	register_autons();
     pros::lcd::initialize();
 	pros::delay(2000);
-	pros::lcd::clear_line(7);
     logo_task.remove();
-	register_autons();
 	selector.init();
 }
 
