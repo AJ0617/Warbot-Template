@@ -116,51 +116,52 @@ void updatePose() {
     double deltaLateral = 0;
 
     switch (currentOdomConfig) {
-        case MOTOR_ENCODERS:
+        case MOTOR_ENCODERS: {
             auto [dL, dR] = motorDeltas();
             deltaForward = (dL + dR) / 2.0;
             if (trackWidth > 0) {
                 deltaTheta_deg = (dR - dL) / trackWidth * (180.0 / M_PI);
             }
             break;
-
-        case IMU_ONLY:
+        }
+        case IMU_ONLY: {
             auto [dL, dR] = motorDeltas();
             deltaForward = (dL + dR) / 2.0;
             deltaTheta_deg = imuDelta();
             break;
-
-        case VERTICAL_TRACKER:
+        }
+        case VERTICAL_TRACKER: {
             deltaForward = verticalDelta();
             auto [dL, dR] = motorDeltas();
             if (trackWidth > 0) deltaTheta_deg = (dR - dL) / trackWidth * (180.0 / M_PI);
             break;
-
-        case HORIZONTAL_TRACKER:
+        }
+        case HORIZONTAL_TRACKER: {
             auto [dL, dR] = motorDeltas();
             deltaForward = (dL + dR) / 2.0;
             if (trackWidth > 0) deltaTheta_deg = (dR - dL) / trackWidth * (180.0 / M_PI);
             deltaLateral = horizontalDelta();
             break;
-
-        case BOTH_TRACKERS:
+        }
+        case BOTH_TRACKERS: {
             deltaForward = verticalDelta();
             deltaLateral = horizontalDelta();
             auto [dL, dR] = motorDeltas();
             if (trackWidth > 0) deltaTheta_deg = (dR - dL) / trackWidth * (180.0 / M_PI);
             break;
-
+        }
         case IMU_VERTICAL:
             deltaForward = verticalDelta();
             deltaTheta_deg = imuDelta();
             break;
 
-        case IMU_HORIZONTAL:
+        case IMU_HORIZONTAL: {
             auto [dL, dR] = motorDeltas();
             deltaForward = (dL + dR) / 2.0;
             deltaLateral = horizontalDelta();
             deltaTheta_deg = imuDelta();
             break;
+        }
 
         case IMU_BOTH_TRACKERS:
             deltaForward = verticalDelta();
