@@ -4,27 +4,43 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/**
+ * HOW TO CHANGE THE SITE COLOR
+ * ─────────────────────────────
+ * 1. Pick a base hex color (e.g. #e63946 for red).
+ * 2. Generate the full 7-shade palette using the Docusaurus color tool:
+ *    https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima
+ * 3. Paste the generated values into the :root block below (light mode).
+ * 4. For dark mode, use a lighter version of your color — paste into [data-theme='dark'].
+ *
+ * The :root block = light mode. [data-theme='dark'] block = dark mode.
+ */
+
+/* Light mode colors — applied by default */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #2563eb;          /* main brand color: navbar, buttons, links */
+  --ifm-color-primary-dark: #2159d4;     /* hover state */
+  --ifm-color-primary-darker: #1f54c8;   /* active / pressed state */
+  --ifm-color-primary-darkest: #1945a4;  /* deepest accent */
+  --ifm-color-primary-light: #4078ee;    /* subtle highlights */
+  --ifm-color-primary-lighter: #4d82ef;  /* lighter highlights */
+  --ifm-color-primary-lightest: #75a0f3; /* very light tint / backgrounds */
+  --ifm-background-color: #ffffff;       /* page background color (light mode) */
+  --ifm-navbar-background-color: #ffffff; /* top navbar background color (light mode) */
+  --ifm-code-font-size: 95%;             /* size of inline code text */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); /* highlighted line background in code blocks */
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode colors — use lighter shades so they stay readable on a dark background */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #60a5fa;          /* main brand color in dark mode */
+  --ifm-color-primary-dark: #3f90f9;     /* hover state */
+  --ifm-color-primary-darker: #2f85f8;   /* active / pressed state */
+  --ifm-color-primary-darkest: #086bee;  /* deepest accent */
+  --ifm-color-primary-light: #81bafb;    /* subtle highlights */
+  --ifm-color-primary-lighter: #91c5fc;  /* lighter highlights */
+  --ifm-color-primary-lightest: #c1ddfd; /* very light tint / backgrounds */
+  --ifm-background-color: #1b1b1d;       /* page background color (dark mode) */
+  --ifm-navbar-background-color: #242526; /* top navbar background color (dark mode) */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3); /* highlighted line background in code blocks */
 }
