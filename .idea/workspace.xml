@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="170d7b7a-d848-4c9d-bde8-a705fab98fb2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLAUDE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/convert_logo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware/libc.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware/liblvgl.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware/libm.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware/libpros.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware/v5-common.ld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware/v5-hot.ld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firmware/v5.ld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/auton_selector.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/autons.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_global.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_group.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_group_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_class.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_class_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_draw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_draw_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_event_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_pos.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_property.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_scroll.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_scroll_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_style.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_style_gen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_style_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_obj_tree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_refr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/core/lv_refr_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/display/lv_display.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/display/lv_display_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/dma2d/lv_draw_dma2d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/dma2d/lv_draw_dma2d_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_arc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_buf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_buf_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_image.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_image_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_label.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_label_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_line.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_mask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_mask_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_rect.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_rect_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_triangle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_triangle_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_vector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_draw_vector_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_image_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_image_decoder_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/lv_image_dsc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/nema_gfx/lv_draw_nema_gfx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/nema_gfx/lv_draw_nema_gfx_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/nxp/pxp/lv_draw_pxp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/nxp/pxp/lv_pxp_cfg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/nxp/pxp/lv_pxp_osa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/nxp/pxp/lv_pxp_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/nxp/vglite/lv_draw_vglite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/nxp/vglite/lv_vglite_buf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/nxp/vglite/lv_vglite_matrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/nxp/vglite/lv_vglite_path.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/nxp/vglite/lv_vglite_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/opengles/lv_draw_opengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/renesas/dave2d/lv_draw_dave2d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/renesas/dave2d/lv_draw_dave2d_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sdl/lv_draw_sdl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/arm2d/lv_draw_sw_arm2d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/arm2d/lv_draw_sw_helium.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/blend/arm2d/lv_blend_arm2d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/blend/helium/lv_blend_helium.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/blend/lv_draw_sw_blend.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/blend/lv_draw_sw_blend_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/blend/lv_draw_sw_blend_to_al88.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/blend/lv_draw_sw_blend_to_argb8888.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/blend/lv_draw_sw_blend_to_i1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/blend/lv_draw_sw_blend_to_l8.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/blend/lv_draw_sw_blend_to_rgb565.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/blend/lv_draw_sw_blend_to_rgb888.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/blend/neon/lv_blend_neon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/lv_draw_sw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/lv_draw_sw_gradient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/lv_draw_sw_gradient_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/lv_draw_sw_mask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/lv_draw_sw_mask_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/sw/lv_draw_sw_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/vg_lite/lv_draw_vg_lite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/vg_lite/lv_draw_vg_lite_type.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/vg_lite/lv_vg_lite_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/vg_lite/lv_vg_lite_grad.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/vg_lite/lv_vg_lite_math.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/vg_lite/lv_vg_lite_path.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/vg_lite/lv_vg_lite_pending.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/vg_lite/lv_vg_lite_stroke.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/draw/vg_lite/lv_vg_lite_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/display/drm/lv_linux_drm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/display/fb/lv_linux_fbdev.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/display/ili9341/lv_ili9341.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/display/lcd/lv_lcd_generic_mipi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/display/renesas_glcdc/lv_renesas_glcdc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/display/st7735/lv_st7735.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/display/st7789/lv_st7789.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/display/st7796/lv_st7796.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/display/st_ltdc/lv_st_ltdc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/display/tft_espi/lv_tft_espi.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/display/tft_espi/lv_tft_espi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/evdev/lv_evdev.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/glfw/lv_glfw_window.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/glfw/lv_glfw_window_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/glfw/lv_opengles_debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/glfw/lv_opengles_driver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/glfw/lv_opengles_texture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/libinput/lv_libinput.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/libinput/lv_libinput_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/libinput/lv_xkb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/libinput/lv_xkb_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/lv_drivers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/nuttx/lv_nuttx_cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/nuttx/lv_nuttx_entry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/nuttx/lv_nuttx_fbdev.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/nuttx/lv_nuttx_image_cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/nuttx/lv_nuttx_lcd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/nuttx/lv_nuttx_libuv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/nuttx/lv_nuttx_profiler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/nuttx/lv_nuttx_touchscreen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/qnx/lv_qnx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/sdl/lv_sdl_keyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/sdl/lv_sdl_mouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/sdl/lv_sdl_mousewheel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/sdl/lv_sdl_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/sdl/lv_sdl_window.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/wayland/lv_wayland.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/wayland/lv_wayland_smm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/windows/lv_windows_context.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/windows/lv_windows_display.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/windows/lv_windows_input.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/windows/lv_windows_input_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/drivers/x11/lv_x11.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/font/lv_binfont_loader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/font/lv_font.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/font/lv_font_fmt_txt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/font/lv_font_fmt_txt_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/font/lv_symbol_def.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/indev/lv_indev.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/indev/lv_indev_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/indev/lv_indev_scroll.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/layouts/flex/lv_flex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/layouts/grid/lv_grid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/layouts/lv_layout.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/layouts/lv_layout_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/barcode/code128.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/barcode/lv_barcode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/barcode/lv_barcode_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/bin_decoder/lv_bin_decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/bmp/lv_bmp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/ffmpeg/lv_ffmpeg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/ffmpeg/lv_ffmpeg_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/freetype/arial.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/freetype/ftmodule.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/freetype/ftoption.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/freetype/lv_freetype.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/freetype/lv_freetype_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/fsdrv/lv_fs_arduino_sd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/fsdrv/lv_fsdrv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/gif/gifdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/gif/gifdec_mve.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/gif/lv_gif.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/gif/lv_gif_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/libjpeg_turbo/lv_libjpeg_turbo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/libpng/lv_libpng.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/lodepng/lodepng.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/lodepng/lv_lodepng.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/lz4/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/lz4/lz4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/qrcode/lv_qrcode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/qrcode/lv_qrcode_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/qrcode/qrcodegen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/rle/lv_rle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/rlottie/lv_rlottie.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/rlottie/lv_rlottie_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/svg/lv_svg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/svg/lv_svg_parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/svg/lv_svg_render.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/svg/lv_svg_token.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/add_lvgl_if.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/allocators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/cursorstreamwrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/document.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/encodedstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/encodings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/error/en.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/error/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/filereadstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/filewritestream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/fwd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/biginteger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/clzll.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/diyfp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/dtoa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/ieee754.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/itoa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/meta.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/pow10.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/regex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/stack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/strfunc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/strtod.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/internal/swap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/istreamwrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/memorybuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/memorystream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/msinttypes/inttypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/msinttypes/stdint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/ostreamwrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/pointer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/prettywriter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/rapidjson.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/reader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/schema.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/stream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/stringbuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/uri.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/rapidjson/writer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/thorvg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/thorvg_capi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/thorvg_lottie.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgAccessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgAnimation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgAnimation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgBinaryDesc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgCanvas.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgCanvas.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgCapi.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgCommon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgCompressor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgCompressor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgFill.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgFill.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgFrameModule.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgGlCanvas.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgInitializer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgInlist.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgIteratorAccessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLines.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLines.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLoadModule.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLock.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieAnimation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieExpressions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieExpressions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieInterpolator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieModel.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieParser.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieParser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieParserHandler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieParserHandler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgLottieProperty.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgMath.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgPaint.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgPaint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgPicture.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgPicture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgRawLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgRawLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgRender.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgRender.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSaveModule.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSaver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgScene.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgScene.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgShape.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgShape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgStr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgStr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSvgCssStyle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSvgCssStyle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSvgLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSvgLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSvgLoaderCommon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSvgPath.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSvgPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSvgSceneBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSvgSceneBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSvgUtil.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSvgUtil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwCanvas.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwCommon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwFill.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwImage.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwMath.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwMemPool.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwRaster.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwRasterAvx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwRasterC.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwRasterNeon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwRasterTexmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwRle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwShape.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgSwStroke.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgTaskScheduler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgTaskScheduler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgText.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgText.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgWgCanvas.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgXmlParser.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/thorvg/tvgXmlParser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/tiny_ttf/lv_tiny_ttf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/tiny_ttf/stb_rect_pack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/tiny_ttf/stb_truetype_htcw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/tjpgd/lv_tjpgd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/tjpgd/tjpgd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/libs/tjpgd/tjpgdcnf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/llemu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/llemu.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/lv_api_map_v8.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/lv_api_map_v9_0.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/lv_api_map_v9_1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/lv_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/lv_conf.old.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/lv_conf_internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/lv_conf_kconfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/lv_init.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/lv_version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/lvgl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/lvgl_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/cache/lv_cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/cache/lv_cache_entry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/cache/lv_cache_entry_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/cache/lv_cache_lru_rb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/cache/lv_cache_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/cache/lv_image_cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/cache/lv_image_header_cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_anim.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_anim_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_anim_timeline.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_area.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_area_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_array.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_assert.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_async.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_bidi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_bidi_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_circle_buf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_color.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_color_op.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_color_op_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_event_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_fs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_fs_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_iter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_ll.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_lru.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_math.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_matrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_palette.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_profiler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_profiler_builtin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_profiler_builtin_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_rb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_rb_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_style.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_style_gen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_style_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_templ.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_text.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_text_ap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_text_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_timer_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_tree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/misc/lv_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/osal/lv_cmsis_rtos2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/osal/lv_freertos.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/osal/lv_mqx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/osal/lv_os.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/osal/lv_os_none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/osal/lv_os_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/osal/lv_pthread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/osal/lv_rtthread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/osal/lv_windows.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/file_explorer/lv_file_explorer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/file_explorer/lv_file_explorer_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/font_manager/lv_font_manager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/font_manager/lv_font_manager_recycle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/font_manager/lv_font_manager_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/fragment/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/fragment/lv_fragment.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/fragment/lv_fragment_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/gridnav/lv_gridnav.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/ime/lv_ime_pinyin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/ime/lv_ime_pinyin_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/imgfont/lv_imgfont.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/monkey/lv_monkey.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/monkey/lv_monkey_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/observer/lv_observer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/observer/lv_observer_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/snapshot/lv_snapshot.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/sysmon/lv_sysmon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/sysmon/lv_sysmon_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/vg_lite_tvg/vg_lite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/others/vg_lite_tvg/vg_lite_tvg.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/stdlib/builtin/lv_tlsf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/stdlib/builtin/lv_tlsf_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/stdlib/lv_mem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/stdlib/lv_mem_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/stdlib/lv_sprintf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/stdlib/lv_string.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/themes/default/lv_theme_default.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/themes/lv_theme.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/themes/lv_theme_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/themes/mono/lv_theme_mono.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/themes/simple/lv_theme_simple.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/tick/lv_tick.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/tick/lv_tick_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/animimage/lv_animimage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/animimage/lv_animimage_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/arc/lv_arc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/arc/lv_arc_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/bar/lv_bar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/bar/lv_bar_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/button/lv_button.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/button/lv_button_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/buttonmatrix/lv_buttonmatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/buttonmatrix/lv_buttonmatrix_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/calendar/lv_calendar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/calendar/lv_calendar_chinese.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/calendar/lv_calendar_chinese_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/calendar/lv_calendar_header_arrow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/calendar/lv_calendar_header_dropdown.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/calendar/lv_calendar_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/canvas/lv_canvas.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/canvas/lv_canvas_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/chart/lv_chart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/chart/lv_chart_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/checkbox/lv_checkbox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/checkbox/lv_checkbox_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/dropdown/lv_dropdown.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/dropdown/lv_dropdown_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/image/lv_image.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/image/lv_image_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/imagebutton/lv_imagebutton.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/imagebutton/lv_imagebutton_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/keyboard/lv_keyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/keyboard/lv_keyboard_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/label/lv_label.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/label/lv_label_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/led/lv_led.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/led/lv_led_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/line/lv_line.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/line/lv_line_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/list/lv_list.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/lottie/lv_lottie.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/lottie/lv_lottie_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/menu/lv_menu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/menu/lv_menu_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/msgbox/lv_msgbox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/msgbox/lv_msgbox_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/objx_templ/lv_objx_templ.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/property/lv_obj_property_names.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/property/lv_style_properties.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/roller/lv_roller.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/roller/lv_roller_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/scale/lv_scale.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/scale/lv_scale_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/slider/lv_slider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/slider/lv_slider_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/span/lv_span.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/span/lv_span_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/spinbox/lv_spinbox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/spinbox/lv_spinbox_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/spinner/lv_spinner.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/switch/lv_switch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/switch/lv_switch_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/table/lv_table.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/table/lv_table_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/tabview/lv_tabview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/tabview/lv_tabview_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/textarea/lv_textarea.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/textarea/lv_textarea_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/tileview/lv_tileview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/tileview/lv_tileview_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/win/lv_win.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/liblvgl/widgets/win/lv_win_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/abstract_motor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/adi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/adi.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/ai_vision.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/ai_vision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/apix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/colors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/colors.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/device.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/device.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/distance.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/distance.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/ext_adi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/gps.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/gps.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/imu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/imu.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/link.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/link.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/llemu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/llemu.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/misc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/misc.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/motor_group.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/motors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/motors.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/optical.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/optical.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/rotation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/rotation.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/rtos.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/rtos.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/screen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/screen.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/serial.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/serial.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/vision.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pros/vision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/warbotTemplate/drive.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/warbotTemplate/logo_data.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/warbotTemplate/pid.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/warbotTemplate/util.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.pros" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/autons.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exampleSubsystem/example.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exampleSubsystem/example.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/warbot.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_logo.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="581" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AJ0617"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AJ0617/Warbot-Template.git",
+    "accountId": "f79ef501-07fa-484b-9346-d245e6aea280"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3EJVECwTuFxwlwmK7kqNgpa38To" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "website",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "C:/Users/artur/Downloads/Warbot-Template",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-WS-261.22158.274" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="170d7b7a-d848-4c9d-bde8-a705fab98fb2" name="Changes" comment="" />
+      <created>1779896546446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779896546446</updated>
+      <workItem from="1779896549724" duration="658000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
