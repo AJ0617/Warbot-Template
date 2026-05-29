@@ -2,10 +2,10 @@
 #include "warbotTemplate/util.hpp"
 
 warbots::Drive drive(
-	{10},  // Left Motors ID
-	{-4},  // Right Motors ID
-	3.25,  // Wheel Diameter
-	1.0,   // Gear Ratio
+	{-20},  // Left Motors ID
+	{11},  // Right Motors ID
+	4.125,  // Wheel Diameter
+	0.714,   // Gear Ratio, Driven gear divided by driving gear
 	false,  // Are you using an IMU on the Robot?
 	0   // If you are using an IMU, put the motor port here, if you are not using an IMU, leave at 0
 );
@@ -32,7 +32,7 @@ void initialize() {
 	//Add them Here!!
 	// drive.addHorizontalTrackingWheel(15, 3.25);
 	// drive.addVerticalTrackingWheel(16, 3.25);
-
+	drive.setTrackWidth(13);
 	drive.setOdomConfig(warbots::Drive::odomConfig::MOTOR_ENCODERS);
 	drive.initImu();
 	drive.resetPose();
@@ -99,8 +99,12 @@ void opcontrol() {
 	// drive.setDriveType(warbots::Drive::SPLIT_ARCADE);
 	// drive.setDriveType(warbots::Drive::FLIPPED_SPLIT_ARCADE);
 	while (true) {
-		warbots::screenPrint("Arm: " + warbots::doubleToString(arm.get_position(), 2), 2, pros::E_TEXT_MEDIUM);
 		warbots::drawLogo();
+		drive.updatePose();
+ 		warbots::screenPrint("x"+ warbots::doubleToString(drive.getPose().x,2), 2, pros::E_TEXT_MEDIUM_CENTER);
+		warbots::screenPrint("y"+ warbots::doubleToString(drive.getPose().y,2), 3, pros::E_TEXT_MEDIUM_CENTER);
+		warbots::screenPrint("angle"+ warbots::doubleToString(drive.getPose().angle,2), 4, pros::E_TEXT_MEDIUM_CENTER);
+		// warbots::screenPrint("Arm: " + warbots::doubleToString(arm.get_position(), 2), 2, pros::E_TEXT_MEDIUM);
 		drive.control(master);
 		examplePIDFunction(1400); // drive arm to 200 encoder ticks
 		pros::delay(20);
