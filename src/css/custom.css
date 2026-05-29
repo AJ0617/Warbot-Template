@@ -26,7 +26,7 @@
   --ifm-color-primary-lighter: #4d82ef;  /* lighter highlights */
   --ifm-color-primary-lightest: #75a0f3; /* very light tint / backgrounds */
   --ifm-background-color: #ffffff;       /* page background color (light mode) */
-  --ifm-navbar-background-color: #ffffff; /* top navbar background color (light mode) */
+  --ifm-navbar-background-color: #092049; /* top navbar background color (light mode) */
   --ifm-code-font-size: 95%;             /* size of inline code text */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); /* highlighted line background in code blocks */
 }
@@ -41,6 +41,6 @@
   --ifm-color-primary-lighter: #91c5fc;  /* lighter highlights */
   --ifm-color-primary-lightest: #c1ddfd; /* very light tint / backgrounds */
   --ifm-background-color: #1b1b1d;       /* page background color (dark mode) */
-  --ifm-navbar-background-color: #242526; /* top navbar background color (dark mode) */
+  --ifm-navbar-background-color: #092049; /* top navbar background color (dark mode) */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3); /* highlighted line background in code blocks */
 }
