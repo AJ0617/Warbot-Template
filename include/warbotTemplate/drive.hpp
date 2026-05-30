@@ -7,6 +7,9 @@ class Drive {
 public:
 
 //Constructor
+// ratio = driving gear / driven gear (motor gear teeth / wheel gear teeth)
+//   Direct drive = 1.  Example: 12T motor -> 36T wheel = 12.0/36.0 = 0.333
+//   The odometry formula multiplies by this ratio because the encoder sits on the motor (driving) shaft.
 Drive(std::vector<int> leftMotorPorts, std::vector<int> rightMotorPorts, double wheelDiameter, double ratio = 1.0, bool useImu = false, int imuPort = 0)
     : usingImu(useImu), storedImuPort(imuPort), storedWheelDiameter(wheelDiameter), storedGearRatio(ratio)
 {
@@ -254,7 +257,7 @@ private:
 
 // --- Configuration (set at construction) ---
 double storedWheelDiameter = 0;
-double storedGearRatio = 1.0;
+double storedGearRatio = 1.0;  // driving / driven (motor teeth / wheel teeth); multiplied in encToInches
 double trackWidth = 0;
 bool usingImu = false;
 int storedImuPort = 0;
