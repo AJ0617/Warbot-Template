@@ -8,7 +8,7 @@ warbots::Drive drive(
 	0.4,   // Gear Ratio = driving gear / driven gear (motor gear teeth / wheel gear teeth)
 	     // Direct drive = 1. Example: 12T motor gear -> 36T wheel gear = 12/36 = 0.333
 	true,  // Are you using an IMU on the Robot?
-	21   // If you are using an IMU, put the motor port here, if you are not using an IMU, leave at 0
+	20   // If you are using an IMU, put the motor port here, if you are not using an IMU, leave at 0
 );
 
 
@@ -32,9 +32,9 @@ void initialize() {
 	//Have Rotation Sensors/Odom Pods on your drivetrain?
 	//Add them Here!!
 	// drive.addHorizontalTrackingWheel(15, 3.25);
-	// drive.addVerticalTrackingWheel(16, 3.25);
+	drive.addVerticalTrackingWheel(-1, 2.0);
 	drive.setTrackWidth(12);
-	drive.setOdomConfig(warbots::Drive::odomConfig::IMU_ONLY);
+	drive.setOdomConfig(warbots::Drive::odomConfig::IMU_VERTICAL);
 	drive.initImu();
 	drive.resetPose();
 	
@@ -107,7 +107,7 @@ void opcontrol() {
 		warbots::screenPrint("x"+ warbots::doubleToString(drive.getPose().x,2), 3, pros::E_TEXT_MEDIUM_CENTER);
 	   warbots::screenPrint("y"+ warbots::doubleToString(drive.getPose().y,2), 4, pros::E_TEXT_MEDIUM_CENTER);
 	   warbots::screenPrint("angle"+ warbots::doubleToString(drive.getPose().angle,2), 5, pros::E_TEXT_MEDIUM_CENTER);
-		// examplePIDFunction(700); // drive arm to 200 encoder ticks
+		examplePIDFunction(700); // drive arm to 200 encoder ticks
 		pros::delay(20);
 	}
 }
