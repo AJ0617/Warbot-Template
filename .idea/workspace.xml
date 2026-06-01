@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170d7b7a-d848-4c9d-bde8-a705fab98fb2" name="Changes" comment="Made changes to the website name and made it easier to change the colors of the page">
-      <change afterPath="$PROJECT_DIR$/src/pages/my-markdown-page.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/my-react-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/warbotslogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="170d7b7a-d848-4c9d-bde8-a705fab98fb2" name="Changes" comment="starting to make docs, making about warbot template page currently" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779914416096</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="starting to make docs, making about warbot template page currently">
+      <option name="closed" value="true" />
+      <created>1780342940982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780342940982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Made changes to the website name and made it easier to change the colors of the page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made changes to the website name and made it easier to change the colors of the page" />
+    <MESSAGE value="starting to make docs, making about warbot template page currently" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting to make docs, making about warbot template page currently" />
   </component>
 </project>
