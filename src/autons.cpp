@@ -16,12 +16,20 @@ void register_autons() {
         //{"Example Auto", exampleAuto},
         {"Red Auto",  redAuto},
         {"Blue Auto", blueAuto},
-        {"Skills",    skills}
+        {"Skills",    skills},
+        {"Red Left", redLeft}
+
     });
 }
 
 void redAuto() {
     // red alliance autonomous routine
+}
+
+void redLeft(){
+    //Use this line to code to mirror left auto to right auto or reversed!
+    drive.setMirrored(true);
+
 }
 
 void blueAuto() {

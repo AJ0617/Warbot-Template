@@ -1,3 +1,6 @@
+#pragma once
+#include "warbotTemplate/pid.hpp"
+#include "warbotTemplate/util.hpp"
 #include "main.h"
 
 
@@ -82,6 +85,18 @@ enum odomConfig {
 
 void setOdomConfig(odomConfig config){
     currentOdomConfig = config;
+}
+
+void setDrivePID(PIDconfigs config) {
+    drivePIDConfig = config;
+}
+
+void setTurnPID(PIDconfigs config) {
+    turnPIDConfig = config;
+}
+
+void setMirrored(bool m) {
+    mirrored = m;
 }
 
 // Reset pose and sync all previous-value state so the first updatePose() call produces zero deltas.
@@ -249,11 +264,100 @@ This code is used to control robots driving and turning in Auton
 There is PID, Continuous Movement and more!!
 */
 
-void PID_driveInches(double inches){
+// Drive a set distance in inches using the PID config set via setDrivePID().
+// inches        : target forward distance; negative = backward.
+// maxSpeed      : motor power cap, 0..127.
+// holdHeading   : if true, apply proportional correction to keep the starting heading.
+// driveTolerance: exit when within this many inches of the target (default 0.5").
+// driveHeadingKp: proportional gain for straight-drive heading correction (default 2.0).
+void PID_driveInches(double inches, int maxSpeed = 127,
+                     bool holdHeading = false, double driveTolerance = 0.5,
+                     double driveHeadingKp = 2.0) {
+    // Reset PID state so each call starts fresh.
+    drivePIDConfig.prev_error = 0;
+    drivePIDConfig.integral   = 0;
 
+    // Snapshot starting pose and time.
+    double x0   = pose.x;
+    double y0   = pose.y;
+    double a0   = pose.angle;
+    double a0_rad = a0 * (M_PI / 180.0);
+    uint32_t startTime = pros::millis();
+
+    while (true) {
+        // Timeout check.
+        if (pros::millis() - startTime >= (uint32_t)drivePIDConfig.timeout) break;
+
+        // Update odometry (honours whatever odomConfig was set in main).
+        updatePose();
+
+        // Project pose displacement onto the starting forward vector.
+        double traveled = (pose.x - x0) * std::sin(a0_rad)
+                        + (pose.y - y0) * std::cos(a0_rad);
+
+        // Tolerance check.
+        if (std::fabs(inches - traveled) < driveTolerance) break;
+
+        // PID output and clamp to max speed.
+        double output = calculatePID(traveled, inches, drivePIDConfig);
+        output = std::max(-(double)maxSpeed, std::min((double)maxSpeed, output));
+
+        // Optional heading correction: steer back to the starting angle.
+        double correction = holdHeading ? driveHeadingKp * wrap180(a0 - pose.angle) : 0.0;
+
+        moveLeftSide ((int)(output - correction));
+        moveRightSide((int)(output + correction));
+
+        pros::delay(10);
+    }
+
+    // Stop both sides when done.
+    moveLeftSide(0);
+    moveRightSide(0);
+}
+
+// Turn a set number of degrees using the PID config set via setTurnPID().
+// degrees      : how much to turn; positive = CW, negative = CCW.
+// maxSpeed     : motor power cap, 0..127.
+// turnTolerance: exit when within this many degrees of the target (default 1.0°).
+void PID_turnDegrees(double degrees, int maxSpeed = 127, double turnTolerance = 1.0) {
+    turnPIDConfig.prev_error = 0;
+    turnPIDConfig.integral   = 0;
+
+    if (mirrored) degrees = -degrees;
+
+    double a0 = pose.angle;
+    uint32_t startTime = pros::millis();
+
+    while (true) {
+        if (pros::millis() - startTime >= (uint32_t)turnPIDConfig.timeout) break;
+
+        updatePose();
+
+        // Signed heading change since the start, wrapped to [-180, 180].
+        double turned = wrap180(pose.angle - a0);
+
+        if (std::fabs(degrees - turned) < turnTolerance) break;
+
+        double output = calculatePID(turned, degrees, turnPIDConfig);
+        output = std::max(-(double)maxSpeed, std::min((double)maxSpeed, output));
+
+        // Positive output = CW: right side forward, left side backward.
+        moveLeftSide (-(int)output);
+        moveRightSide( (int)output);
+
+        pros::delay(10);
+    }
+
+    moveLeftSide(0);
+    moveRightSide(0);
 }
 
 private:
+
+// --- PID configs (set via setters) ---
+PIDconfigs drivePIDConfig = {0, 0, 0, 3000};
+PIDconfigs turnPIDConfig  = {0, 0, 0, 3000};
 
 // --- Configuration (set at construction) ---
 double storedWheelDiameter = 0;
@@ -273,6 +377,7 @@ double horizontalTrackerDiameter = 0;
 
 // --- State ---
 robotPose pose = {0.0, 0.0, 0.0};
+bool mirrored = false;
 pros::motor_brake_mode_e_t currentBrakeMode = pros::E_MOTOR_BRAKE_COAST;
 int currentMA = 2500;
 odomConfig currentOdomConfig = odomConfig::MOTOR_ENCODERS;
@@ -336,6 +441,13 @@ double horizontalDelta() {
     prevHorizontalInches = hIn;
     return d;
 }
+// Normalise a heading difference to the range [-180, 180] degrees.
+static double wrap180(double deg) {
+    while (deg >  180.0) deg -= 360.0;
+    while (deg < -180.0) deg += 360.0;
+    return deg;
+}
+
 //These make the robot sides drive.
 void moveLeftSide(int power)  {
     for (auto& m : leftMotors) {
