@@ -307,13 +307,57 @@ void PID_driveInches(double inches, int maxSpeed = 127,
 
         moveLeftSide ((int)(output - correction));
         moveRightSide((int)(output + correction));
-
+        
         pros::delay(10);
     }
-
+    
     // Stop both sides when done.
     moveLeftSide(0);
     moveRightSide(0);
+}
+
+//Moves the robot using a maintained velocity instead of using PID
+/*
+This function takes in:
+inches: how many inches you want to drive
+speed: the speed that is maintained the entire time that the robot is driving
+exitRangeIn: How far you want to be from the goal to exit the function
+holdHeading: do you want angle correction while driving?
+holdHeadingkp: if you are using hold heading, the kP for holdHeading
+*/
+void continuousDrive(double inches, int speed, double exitRangeIn, 
+            bool holdHeading, double holdHeadingkp){
+    drivePIDConfig.prev_error = 0;
+    drivePIDConfig.integral   = 0;
+
+    double startingX = pose.x;
+    double startingY = pose.y;
+    double startingAngle = pose.angle;
+    double startingAngleR = startingAngle * (M_PI/180.0);
+
+    uint32_t startTime = pros::millis();
+
+    while(true){
+        //Checking if function has been longer than timeout
+        if(pros::millis() - startTime >= (uint32_t)drivePIDConfig.timeout) {
+            break;
+        }
+        //Updates the pose
+        updatePose();
+        double traveled = (pose.x - startingX) * std::sin(startingAngleR)
+                        + (pose.y - startingY) * std::cos(startingAngleR);
+
+        //checks if traveled distance is greater than exitCondition
+        if(std::fabs(inches-traveled) < exitRangeIn){
+            break;
+        }
+        
+        double correction = holdHeading ? holdHeadingkp * wrap180(startingAngle - pose.angle) : 0.0;
+
+        moveLeftSide((int)speed - correction);
+        moveRightSide((int)speed + correction);
+    }
+
 }
 
 // Turn a set number of degrees using the PID config set via setTurnPID().
