@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate"
+		},
+		{
+			"file" : "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/581e11d3d278615b735b23f22ce15f96/raylib-populate.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/fc7f50165d81d16e1632ef99edfa9ea9/raylib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"raylib-populate"
+		],
+		"name" : "raylib-populate"
+	}
+}

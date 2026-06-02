@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\CMakeFiles\c7fafdee284dd0b9e2d76137a95340d8\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0CFC7125-F7A0-31A7-B7FE-CE22B87ABC06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
