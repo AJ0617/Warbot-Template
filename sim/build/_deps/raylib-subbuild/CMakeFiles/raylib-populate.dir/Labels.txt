@@ -1,0 +1,14 @@
+# Target labels
+ raylib-populate
+# Source files and their labels
+C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate
+C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/581e11d3d278615b735b23f22ce15f96/raylib-populate.rule
+C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/fc7f50165d81d16e1632ef99edfa9ea9/raylib-populate-complete.rule
+C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-build.rule
+C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-configure.rule
+C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-download.rule
+C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-install.rule
+C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-mkdir.rule
+C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-patch.rule
+C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-test.rule
+C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/e1bccdf7eaf06d8eae46d2d6cbbd291c/raylib-populate-update.rule

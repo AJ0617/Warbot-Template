@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\e1bccdf7eaf06d8eae46d2d6cbbd291c\raylib-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\e1bccdf7eaf06d8eae46d2d6cbbd291c\raylib-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\e1bccdf7eaf06d8eae46d2d6cbbd291c\raylib-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\e1bccdf7eaf06d8eae46d2d6cbbd291c\raylib-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\e1bccdf7eaf06d8eae46d2d6cbbd291c\raylib-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\e1bccdf7eaf06d8eae46d2d6cbbd291c\raylib-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\e1bccdf7eaf06d8eae46d2d6cbbd291c\raylib-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\e1bccdf7eaf06d8eae46d2d6cbbd291c\raylib-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\fc7f50165d81d16e1632ef99edfa9ea9\raylib-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\581e11d3d278615b735b23f22ce15f96\raylib-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\raylib-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F1DF6EB-20D3-3663-8AFA-02A7D051607E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
