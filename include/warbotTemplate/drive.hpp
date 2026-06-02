@@ -351,11 +351,13 @@ void continuousDrive(double inches, int speed, double exitRangeIn,
         if(std::fabs(inches-traveled) < exitRangeIn){
             break;
         }
-        
+
         double correction = holdHeading ? holdHeadingkp * wrap180(startingAngle - pose.angle) : 0.0;
 
         moveLeftSide((int)speed - correction);
         moveRightSide((int)speed + correction);
+        
+        pros::delay(10);
     }
 
 }
