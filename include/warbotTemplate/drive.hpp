@@ -271,7 +271,7 @@ There is PID, Continuous Movement and more!!
 // driveTolerance: exit when within this many inches of the target (default 0.5").
 // driveHeadingKp: proportional gain for straight-drive heading correction (default 2.0).
 void PID_driveInches(double inches, int maxSpeed = 127,
-                     bool holdHeading = false, double driveTolerance = 0.5,
+                    double driveTolerance = 0.5, bool holdHeading = false, 
                      double driveHeadingKp = 2.0) {
     // Reset PID state so each call starts fresh.
     drivePIDConfig.prev_error = 0;

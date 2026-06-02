@@ -29,6 +29,7 @@ void redAuto() {
 void redLeft(){
     //Use this line to code to mirror left auto to right auto or reversed!
     drive.setMirrored(true);
+    drive.PID_driveInches(12);
 
 }
 
