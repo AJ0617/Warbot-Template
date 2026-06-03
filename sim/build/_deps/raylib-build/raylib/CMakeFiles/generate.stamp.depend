@@ -6,14 +6,14 @@ C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cma
 C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake/CompileDefinitions.cmake
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake/GlfwImport.cmake
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake/InstallConfigurations.cmake
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake/JoinPaths.cmake
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake/LibraryConfigurations.cmake
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake/PackConfigurations.cmake
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake/raylib-config-version.cmake
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/raylib.pc.in
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/src/CMakeLists.txt
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake/CompileDefinitions.cmake
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake/GlfwImport.cmake
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake/InstallConfigurations.cmake
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake/JoinPaths.cmake
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake/LibraryConfigurations.cmake
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake/PackConfigurations.cmake
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake/raylib-config-version.cmake
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/raylib.pc.in
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/src/CMakeLists.txt

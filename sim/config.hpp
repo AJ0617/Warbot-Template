@@ -21,4 +21,9 @@ namespace simcfg {
 
     static const double ROBOT_WIDTH_IN  = 14.0;
     static const double ROBOT_LENGTH_IN = 14.0;
+
+    constexpr static int WINDOW_W     = 1440;
+    constexpr static int WINDOW_H     = 900;
+    constexpr static int GUI_PANEL_W  = 360;
+    constexpr static int BOTTOM_BAR_H = 36;
 }

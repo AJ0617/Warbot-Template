@@ -1,0 +1,9 @@
+C:\Users\artur\Projects\Warbot-Template\sim\host_main.cpp;C:\Users\artur\Projects\Warbot-Template\sim\build\warbot_host.dir\Release\host_main.obj
+C:\Users\artur\Projects\Warbot-Template\sim\world.cpp;C:\Users\artur\Projects\Warbot-Template\sim\build\warbot_host.dir\Release\world.obj
+C:\Users\artur\Projects\Warbot-Template\sim\renderer_panel.cpp;C:\Users\artur\Projects\Warbot-Template\sim\build\warbot_host.dir\Release\renderer_panel.obj
+C:\Users\artur\Projects\Warbot-Template\sim\gui_impl.cpp;C:\Users\artur\Projects\Warbot-Template\sim\build\warbot_host.dir\Release\gui_impl.obj
+C:\Users\artur\Projects\Warbot-Template\sim\net\table_server.cpp;C:\Users\artur\Projects\Warbot-Template\sim\build\warbot_host.dir\Release\table_server.obj
+C:\Users\artur\Projects\Warbot-Template\src\main.cpp;C:\Users\artur\Projects\Warbot-Template\sim\build\warbot_host.dir\Release\main.obj
+C:\Users\artur\Projects\Warbot-Template\src\autons.cpp;C:\Users\artur\Projects\Warbot-Template\sim\build\warbot_host.dir\Release\autons.obj
+C:\Users\artur\Projects\Warbot-Template\src\warbot.cpp;C:\Users\artur\Projects\Warbot-Template\sim\build\warbot_host.dir\Release\warbot.obj
+C:\Users\artur\Projects\Warbot-Template\src\exampleSubsystem\example.cpp;C:\Users\artur\Projects\Warbot-Template\sim\build\warbot_host.dir\Release\example.obj

@@ -1,36 +1,48 @@
 #pragma once
+// Shared view/control types passed between the host control panel, the field
+// viewer, and the network protocol. Plain structs only — no pros / raylib deps.
 #include <string>
 #include <vector>
 #include <utility>
 
 struct RenderState {
-    double robotX;
-    double robotY;
-    double robotAngle; // degrees, CW from forward
+    // Robot pose
+    double robotX     = 0;
+    double robotY     = 0;
+    double robotAngle = 0; // degrees, CW from forward
+
     std::vector<std::pair<double, double>> trail;
-    std::string modeName;
-    std::string autonName;
-    bool paused;
+
+    // Mode / status
+    std::string modeName;    // resolved display label (READY/AUTONOMOUS/OPCONTROL/PAUSED)
+    std::string autonName;   // currently selected auton name (legacy)
+    bool paused      = false;
+
+    // Auton list for GUI
+    std::vector<std::string> autonList;
+    int  autonSelectedIdx = 0;
+
+    // Running state
+    bool autonRunning  = false;
+    bool opctrlRunning = false;
+
+    // Input mode: 0 = keyboard, 1 = gamepad 0, 2 = gamepad 1
+    int inputMode         = 0;
+    int availableGamepads = 0;
 };
 
-class Renderer {
-public:
-    Renderer(int windowW, int windowH);
+enum class GUIAction {
+    NONE,
+    RUN_AUTON,
+    START_OPCTRL,
+    STOP,
+    RESET_POSE,
+    TOGGLE_PAUSE,
+    SELECT_AUTON,  // param = new auton index
+    SET_INPUT,     // param = new input mode (0=kb, 1+=gamepad idx)
+};
 
-    // Draw one frame. Call from the main thread each iteration of the raylib loop.
-    void drawFrame(const RenderState& state);
-
-private:
-    int w_, h_;         // window dimensions
-    int fieldPx_;       // pixel size of the square field area
-    double pxPerIn_;    // pixels per inch
-    int fieldLeft_;     // left edge of field on screen
-    int fieldTop_;      // top edge of field on screen
-    int hudLeft_;       // left edge of HUD panel
-
-    // Convert field coordinates (inches) to screen pixels.
-    // Origin (0,0) = centre of the field area.
-    // +X = right, +Y = up (flipped for screen Y-down convention).
-    float toSX(double x) const;
-    float toSY(double y) const;
+struct GUIResult {
+    GUIAction action = GUIAction::NONE;
+    int param        = 0;
 };

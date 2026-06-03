@@ -13,7 +13,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{51C8F958-E3F1-30B5-BA93-1D460A7671B8}</ProjectGuid>
+    <ProjectGuid>{9BB71DB6-AF07-30F5-A1E2-366F9866B6CA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -49,11 +49,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild -BC:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild --check-stamp-file C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild -BC:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild --check-stamp-file C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,8 +61,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\4.3.3\CMakeSystem.cmake;C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\raylib-populate-prefix\tmp\raylib-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\4.3.3\CMakeSystem.cmake;C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-subbuild\raylib-populate-prefix\tmp\raylib-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -70,14 +70,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{4B1CAF8D-BC04-3407-B888-6B4F360D8FE4}</Project>
+    <ProjectReference Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{24314A84-9962-37D8-9BB4-9AAFE4F4F33F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\raylib-populate.vcxproj">
-      <Project>{DED58C63-509C-30E5-A3FA-B402E076A992}</Project>
+    <ProjectReference Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-subbuild\raylib-populate.vcxproj">
+      <Project>{7D821EF1-C428-3E79-897C-704A2FD81F42}</Project>
       <Name>raylib-populate</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,8 +1,8 @@
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\E1BCCDF7EAF06D8EAE46D2D6CBBD291C\RAYLIB-POPULATE-MKDIR.RULE
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\07A6D5261B4CB1E26C042657409E9566\RAYLIB-POPULATE-MKDIR.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,15 +10,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\E1BCCDF7EAF06D8EAE46D2D6CBBD291C\RAYLIB-POPULATE-DOWNLOAD.RULE
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\07A6D5261B4CB1E26C042657409E9566\RAYLIB-POPULATE-DOWNLOAD.RULE
 setlocal
-cd C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps
+cd C:\Users\artur\Projects\Warbot-Template\sim\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -26,13 +26,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\E1BCCDF7EAF06D8EAE46D2D6CBBD291C\RAYLIB-POPULATE-UPDATE.RULE
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\07A6D5261B4CB1E26C042657409E9566\RAYLIB-POPULATE-UPDATE.RULE
 setlocal
-cd C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src
+cd C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -40,11 +40,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\E1BCCDF7EAF06D8EAE46D2D6CBBD291C\RAYLIB-POPULATE-PATCH.RULE
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\07A6D5261B4CB1E26C042657409E9566\RAYLIB-POPULATE-PATCH.RULE
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -52,31 +52,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\E1BCCDF7EAF06D8EAE46D2D6CBBD291C\RAYLIB-POPULATE-CONFIGURE.RULE
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\07A6D5261B4CB1E26C042657409E9566\RAYLIB-POPULATE-CONFIGURE.RULE
 setlocal
-cd C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-configure
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\E1BCCDF7EAF06D8EAE46D2D6CBBD291C\RAYLIB-POPULATE-BUILD.RULE
-setlocal
-cd C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build
+cd C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -84,15 +68,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\E1BCCDF7EAF06D8EAE46D2D6CBBD291C\RAYLIB-POPULATE-INSTALL.RULE
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\07A6D5261B4CB1E26C042657409E9566\RAYLIB-POPULATE-BUILD.RULE
 setlocal
-cd C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build
+cd C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -100,15 +84,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\E1BCCDF7EAF06D8EAE46D2D6CBBD291C\RAYLIB-POPULATE-TEST.RULE
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\07A6D5261B4CB1E26C042657409E9566\RAYLIB-POPULATE-INSTALL.RULE
 setlocal
-cd C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build
+cd C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-test
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -116,13 +100,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\FC7F50165D81D16E1632EF99EDFA9EA9\RAYLIB-POPULATE-COMPLETE.RULE
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\07A6D5261B4CB1E26C042657409E9566\RAYLIB-POPULATE-TEST.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/Debug
+cd C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/Debug/raylib-populate-complete
+C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-done
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -130,7 +116,21 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\581E11D3D278615B735B23F22CE15F96\RAYLIB-POPULATE.RULE
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\B6ADD43B6F06D14A55AB7AC652B73B2A\RAYLIB-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/Debug/raylib-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\0CC4237F312FE42174C2C2AB68407AE9\RAYLIB-POPULATE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -138,9 +138,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKELISTS.TXT
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild -BC:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild --check-stamp-file C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild -BC:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild --check-stamp-file C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

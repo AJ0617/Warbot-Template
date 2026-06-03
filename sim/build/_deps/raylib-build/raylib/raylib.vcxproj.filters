@@ -1,116 +1,116 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\raudio.c">
+    <ClCompile Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\raudio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\rcore.c">
+    <ClCompile Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\rcore.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\rmodels.c">
+    <ClCompile Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\rmodels.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\rshapes.c">
+    <ClCompile Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\rshapes.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\rtext.c">
+    <ClCompile Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\rtext.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\rtextures.c">
+    <ClCompile Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\rtextures.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\utils.c">
+    <ClCompile Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\utils.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\raylib.h">
+    <ClInclude Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\raylib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\rlgl.h">
+    <ClInclude Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\rlgl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\raymath.h">
+    <ClInclude Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\raymath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\context.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\context.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\init.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\init.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\input.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\input.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\monitor.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\monitor.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\platform.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\platform.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\vulkan.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\vulkan.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\window.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\window.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\egl_context.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\egl_context.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\osmesa_context.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\osmesa_context.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_init.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_init.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_monitor.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_monitor.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_window.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_window.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_joystick.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_joystick.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_module.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_module.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_time.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_time.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_thread.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_thread.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_init.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_init.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_joystick.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_joystick.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_monitor.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_monitor.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_window.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_window.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\wgl_context.obj">
+    <Object Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\wgl_context.obj">
       <Filter>Object Libraries</Filter>
     </Object>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{742BF98D-BD44-38E2-AE0F-4B02F1BF4F0E}</UniqueIdentifier>
+      <UniqueIdentifier>{D9D58730-A27A-308B-A0EF-0C144A312228}</UniqueIdentifier>
     </Filter>
     <Filter Include="Object Libraries">
-      <UniqueIdentifier>{A3D41406-0BD8-3DD6-87F6-3BF46C819A52}</UniqueIdentifier>
+      <UniqueIdentifier>{CBE67353-F75C-3D18-847A-002B7880E96D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{255BD765-7552-3865-B59C-BBF92AAFB422}</UniqueIdentifier>
+      <UniqueIdentifier>{FFC21552-01AE-3F24-B3EF-40BDF30B7DDD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

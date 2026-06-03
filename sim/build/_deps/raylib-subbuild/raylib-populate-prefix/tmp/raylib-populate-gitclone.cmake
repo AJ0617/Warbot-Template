@@ -3,11 +3,11 @@
 
 cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
-if(EXISTS "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt" AND EXISTS "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt" AND
-  "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt")
+if(EXISTS "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt" AND EXISTS "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt" AND
+  "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt")
   message(VERBOSE
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt'"
+    "'C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt'"
   )
   return()
 endif()
@@ -22,12 +22,12 @@ else()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src'")
+  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -35,9 +35,9 @@ set(error_code 1)
 set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
-    COMMAND "C:/Program Files/Git/cmd/git.exe"
+    COMMAND "C:/Program Files/Git/mingw64/bin/git.exe"
             clone --no-checkout --depth 1 --no-single-branch --config "advice.detachedHead=false" "https://github.com/raysan5/raylib.git" "raylib-src"
-    WORKING_DIRECTORY "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps"
+    WORKING_DIRECTORY "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
@@ -51,9 +51,9 @@ if(error_code)
 endif()
 
 execute_process(
-  COMMAND "C:/Program Files/Git/cmd/git.exe"
+  COMMAND "C:/Program Files/Git/mingw64/bin/git.exe"
           checkout "5.5" --
-  WORKING_DIRECTORY "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src"
+  WORKING_DIRECTORY "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
@@ -64,24 +64,24 @@ endif()
 set(init_submodules TRUE)
 if(init_submodules)
   execute_process(
-    COMMAND "C:/Program Files/Git/cmd/git.exe" 
+    COMMAND "C:/Program Files/Git/mingw64/bin/git.exe" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src"
+    WORKING_DIRECTORY "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src'")
+  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt" "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt" "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt'")
 endif()

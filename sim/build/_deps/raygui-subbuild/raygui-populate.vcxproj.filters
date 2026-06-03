@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeFiles\70a80bd160f0c389bfe79ded9e136cd5\raygui-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeFiles\70a80bd160f0c389bfe79ded9e136cd5\raygui-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeFiles\70a80bd160f0c389bfe79ded9e136cd5\raygui-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeFiles\70a80bd160f0c389bfe79ded9e136cd5\raygui-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeFiles\70a80bd160f0c389bfe79ded9e136cd5\raygui-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeFiles\70a80bd160f0c389bfe79ded9e136cd5\raygui-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeFiles\70a80bd160f0c389bfe79ded9e136cd5\raygui-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeFiles\70a80bd160f0c389bfe79ded9e136cd5\raygui-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeFiles\61b387798ef9f52691fb15d1fddbf1e3\raygui-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeFiles\658f1ccba7c952aa2015987049e72356\raygui-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raygui-subbuild\CMakeFiles\raygui-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0AB68759-907E-3CC3-9D5C-668AEEAD38BA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

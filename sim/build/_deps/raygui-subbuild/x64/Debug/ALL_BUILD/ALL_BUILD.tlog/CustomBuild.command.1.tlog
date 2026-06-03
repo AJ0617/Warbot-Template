@@ -1,0 +1,10 @@
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\_DEPS\RAYGUI-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild -BC:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild --check-stamp-file C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,1 +1,1 @@
-C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\Release\glfw.lib
+C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\Release\glfw.lib

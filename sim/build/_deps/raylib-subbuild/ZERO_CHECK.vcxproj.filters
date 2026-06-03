@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\581e11d3d278615b735b23f22ce15f96\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-subbuild\CMakeFiles\0cc4237f312fe42174c2c2ab68407ae9\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{8F1DF6EB-20D3-3663-8AFA-02A7D051607E}</UniqueIdentifier>
+      <UniqueIdentifier>{568669BC-3C9A-3779-BC5B-679A16C04CA8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

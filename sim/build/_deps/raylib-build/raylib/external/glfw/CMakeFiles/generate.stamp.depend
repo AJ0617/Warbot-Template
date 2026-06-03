@@ -10,5 +10,5 @@ C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake
 C:/Program Files/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/src/external/glfw/CMake/glfw3Config.cmake.in
-C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/src/external/glfw/CMakeLists.txt
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/src/external/glfw/CMake/glfw3Config.cmake.in
+C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/src/external/glfw/CMakeLists.txt

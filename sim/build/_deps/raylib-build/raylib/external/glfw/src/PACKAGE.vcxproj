@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{30469E65-96C9-3A19-8168-275D161F335A}</ProjectGuid>
+    <ProjectGuid>{54B6FFF1-412E-3B22-B5C6-32506FB35094}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -71,7 +71,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd C:\Users\artur\Downloads\Warbot-Template\sim\build
+cd C:\Users\artur\Projects\Warbot-Template\sim\build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
@@ -89,7 +89,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd C:\Users\artur\Downloads\Warbot-Template\sim\build
+cd C:\Users\artur\Projects\Warbot-Template\sim\build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
@@ -107,7 +107,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd C:\Users\artur\Downloads\Warbot-Template\sim\build
+cd C:\Users\artur\Projects\Warbot-Template\sim\build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
@@ -125,7 +125,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd C:\Users\artur\Downloads\Warbot-Template\sim\build
+cd C:\Users\artur\Projects\Warbot-Template\sim\build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
@@ -140,7 +140,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\CMakeFiles\1f2dd27790eb882acace0295460b6ef4\PACKAGE_force.rule">
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\CMakeFiles\4a679d53757806eb0a14355e21fbbb9d\PACKAGE_force.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -153,7 +153,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
@@ -168,7 +168,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
@@ -183,7 +183,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
@@ -198,21 +198,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\ZERO_CHECK.vcxproj">
-      <Project>{7C41FF3B-B23A-3889-88A3-AD7015570A6E}</Project>
+    <ProjectReference Include="C:\Users\artur\Projects\Warbot-Template\sim\build\ZERO_CHECK.vcxproj">
+      <Project>{ACFA143E-1BD7-3947-B7C2-8A528FDACDBF}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\ALL_BUILD.vcxproj">
-      <Project>{0C5B0FA4-D69C-3A34-BA9B-DA027F9A7598}</Project>
+    <ProjectReference Include="C:\Users\artur\Projects\Warbot-Template\sim\build\ALL_BUILD.vcxproj">
+      <Project>{82B9EA61-8333-3E75-9177-11AE08478308}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

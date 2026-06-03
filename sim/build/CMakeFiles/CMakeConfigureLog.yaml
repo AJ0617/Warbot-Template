@@ -35,41 +35,37 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\artur\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\artur\\bin"
         - "C:\\Users\\artur\\Downloads\\pros_cli-3.5.6-win-64bit"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Users\\Public\\wpilib\\2026\\jdk\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\artur\\.cargo\\bin"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher"
         - "C:\\Users\\artur\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\artur\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
-        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules"
         - "C:\\ProgramData\\artur\\GitHubDesktop\\bin"
         - "C:\\Users\\artur\\AppData\\Roaming\\npm"
         - "C:\\Users\\artur\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-      ENV{INCLUDE}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\include"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\VS\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "C:\\Users\\artur\\.cargo\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\artur\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\bc63ae6e-abb0-4aac-a79d-a47febea9a11\\a7b66dc1-ae1f-4fcc-97e0-133e762d88d7\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -86,9 +82,9 @@ events:
       The output was:
       0
       MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-      Build started 6/2/2026 10:17:24 AM.
+      Build started 6/3/2026 12:02:19 PM.
       
-      Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -101,7 +97,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -109,13 +105,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.68
+      Time Elapsed 00:00:01.54
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -123,7 +119,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/4.3.3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/4.3.3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -148,18 +144,10 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "C:/Users/artur/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/"
       - "C:/Program Files/nodejs/"
       - "C:/ProgramData/chocolatey/bin/"
@@ -174,39 +162,48 @@ events:
       - "C:/ProgramData/artur/GitHubDesktop/bin/"
       - "C:/Users/artur/AppData/Roaming/npm/"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\artur\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\artur\\bin"
         - "C:\\Users\\artur\\Downloads\\pros_cli-3.5.6-win-64bit"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Users\\Public\\wpilib\\2026\\jdk\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\artur\\.cargo\\bin"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher"
         - "C:\\Users\\artur\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\artur\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
-        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules"
         - "C:\\ProgramData\\artur\\GitHubDesktop\\bin"
         - "C:\\Users\\artur\\AppData\\Roaming\\npm"
         - "C:\\Users\\artur\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "C:\\Users\\artur\\.cargo\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\artur\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\bc63ae6e-abb0-4aac-a79d-a47febea9a11\\a7b66dc1-ae1f-4fcc-97e0-133e762d88d7\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -230,18 +227,10 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "C:/Users/artur/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/"
       - "C:/Program Files/nodejs/"
       - "C:/ProgramData/chocolatey/bin/"
@@ -256,47 +245,28 @@ events:
       - "C:/ProgramData/artur/GitHubDesktop/bin/"
       - "C:/Users/artur/AppData/Roaming/npm/"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link"
+      - "C:/Users/artur/bin/lld-link.com"
+      - "C:/Users/artur/bin/lld-link.exe"
+      - "C:/Users/artur/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/lld-link.com"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/lld-link.exe"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/lld-link"
@@ -339,39 +309,58 @@ events:
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/lld-link.com"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/lld-link.exe"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+      - "C:/Program Files/qemu/lld-link.com"
+      - "C:/Program Files/qemu/lld-link.exe"
+      - "C:/Program Files/qemu/lld-link"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/lld-link.com"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/lld-link.exe"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\artur\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\artur\\bin"
         - "C:\\Users\\artur\\Downloads\\pros_cli-3.5.6-win-64bit"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Users\\Public\\wpilib\\2026\\jdk\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\artur\\.cargo\\bin"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher"
         - "C:\\Users\\artur\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\artur\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
-        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules"
         - "C:\\ProgramData\\artur\\GitHubDesktop\\bin"
         - "C:\\Users\\artur\\AppData\\Roaming\\npm"
         - "C:\\Users\\artur\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "C:\\Users\\artur\\.cargo\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\artur\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\bc63ae6e-abb0-4aac-a79d-a47febea9a11\\a7b66dc1-ae1f-4fcc-97e0-133e762d88d7\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -393,18 +382,10 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "C:/Users/artur/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/"
       - "C:/Program Files/nodejs/"
       - "C:/ProgramData/chocolatey/bin/"
@@ -419,39 +400,48 @@ events:
       - "C:/ProgramData/artur/GitHubDesktop/bin/"
       - "C:/Users/artur/AppData/Roaming/npm/"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\artur\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\artur\\bin"
         - "C:\\Users\\artur\\Downloads\\pros_cli-3.5.6-win-64bit"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Users\\Public\\wpilib\\2026\\jdk\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\artur\\.cargo\\bin"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher"
         - "C:\\Users\\artur\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\artur\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
-        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules"
         - "C:\\ProgramData\\artur\\GitHubDesktop\\bin"
         - "C:\\Users\\artur\\AppData\\Roaming\\npm"
         - "C:\\Users\\artur\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "C:\\Users\\artur\\.cargo\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\artur\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\bc63ae6e-abb0-4aac-a79d-a47febea9a11\\a7b66dc1-ae1f-4fcc-97e0-133e762d88d7\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -473,18 +463,10 @@ events:
       - "mt"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "C:/Users/artur/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/"
       - "C:/Program Files/nodejs/"
       - "C:/ProgramData/chocolatey/bin/"
@@ -499,60 +481,122 @@ events:
       - "C:/ProgramData/artur/GitHubDesktop/bin/"
       - "C:/Users/artur/AppData/Roaming/npm/"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/mt.com"
-    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/mt.exe"
+      - "C:/Users/artur/bin/mt.com"
+      - "C:/Users/artur/bin/mt.exe"
+      - "C:/Users/artur/bin/mt"
+      - "C:/Program Files/Git/mingw64/bin/mt.com"
+      - "C:/Program Files/Git/mingw64/bin/mt.exe"
+      - "C:/Program Files/Git/mingw64/bin/mt"
+      - "C:/Program Files/Git/usr/local/bin/mt.com"
+      - "C:/Program Files/Git/usr/local/bin/mt.exe"
+      - "C:/Program Files/Git/usr/local/bin/mt"
+      - "C:/Program Files/Git/usr/bin/mt.com"
+      - "C:/Program Files/Git/usr/bin/mt.exe"
+      - "C:/Program Files/Git/usr/bin/mt"
+      - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/mt.com"
+      - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/mt.exe"
+      - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Users/Public/wpilib/2026/jdk/bin/mt.com"
+      - "C:/Users/Public/wpilib/2026/jdk/bin/mt.exe"
+      - "C:/Users/Public/wpilib/2026/jdk/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/artur/.cargo/bin/mt.com"
+      - "C:/Users/artur/.cargo/bin/mt.exe"
+      - "C:/Users/artur/.cargo/bin/mt"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/artur/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/artur/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/artur/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/artur/AppData/Local/JetBrains/Toolbox/scripts/mt.com"
+      - "C:/Users/artur/AppData/Local/JetBrains/Toolbox/scripts/mt.exe"
+      - "C:/Users/artur/AppData/Local/JetBrains/Toolbox/scripts/mt"
+      - "C:/Users/artur/AppData/Local/PowerToys/DSCModules/mt.com"
+      - "C:/Users/artur/AppData/Local/PowerToys/DSCModules/mt.exe"
+      - "C:/Users/artur/AppData/Local/PowerToys/DSCModules/mt"
+      - "C:/ProgramData/artur/GitHubDesktop/bin/mt.com"
+      - "C:/ProgramData/artur/GitHubDesktop/bin/mt.exe"
+      - "C:/ProgramData/artur/GitHubDesktop/bin/mt"
+      - "C:/Users/artur/AppData/Roaming/npm/mt.com"
+      - "C:/Users/artur/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/artur/AppData/Roaming/npm/mt"
+      - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/mt.com"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/mt.exe"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt"
+      - "C:/Program Files/qemu/mt.com"
+      - "C:/Program Files/qemu/mt.exe"
+      - "C:/Program Files/qemu/mt"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/mt.com"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/mt.exe"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/mt"
+    found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\artur\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\artur\\bin"
         - "C:\\Users\\artur\\Downloads\\pros_cli-3.5.6-win-64bit"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Users\\Public\\wpilib\\2026\\jdk\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\artur\\.cargo\\bin"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher"
         - "C:\\Users\\artur\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\artur\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
-        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules"
         - "C:\\ProgramData\\artur\\GitHubDesktop\\bin"
         - "C:\\Users\\artur\\AppData\\Roaming\\npm"
         - "C:\\Users\\artur\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "C:\\Users\\artur\\.cargo\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\artur\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\bc63ae6e-abb0-4aac-a79d-a47febea9a11\\a7b66dc1-ae1f-4fcc-97e0-133e762d88d7\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -574,18 +618,10 @@ events:
       - "lib"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "C:/Users/artur/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/"
       - "C:/Program Files/nodejs/"
       - "C:/ProgramData/chocolatey/bin/"
@@ -600,39 +636,48 @@ events:
       - "C:/ProgramData/artur/GitHubDesktop/bin/"
       - "C:/Users/artur/AppData/Roaming/npm/"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\artur\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\artur\\bin"
         - "C:\\Users\\artur\\Downloads\\pros_cli-3.5.6-win-64bit"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Users\\Public\\wpilib\\2026\\jdk\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\artur\\.cargo\\bin"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher"
         - "C:\\Users\\artur\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\artur\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
-        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules"
         - "C:\\ProgramData\\artur\\GitHubDesktop\\bin"
         - "C:\\Users\\artur\\AppData\\Roaming\\npm"
         - "C:\\Users\\artur\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "C:\\Users\\artur\\.cargo\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\artur\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\bc63ae6e-abb0-4aac-a79d-a47febea9a11\\a7b66dc1-ae1f-4fcc-97e0-133e762d88d7\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -656,18 +701,10 @@ events:
     names:
       - "rc"
     candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "C:/Users/artur/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/"
       - "C:/Program Files/nodejs/"
       - "C:/ProgramData/chocolatey/bin/"
@@ -682,7 +719,12 @@ events:
       - "C:/ProgramData/artur/GitHubDesktop/bin/"
       - "C:/Users/artur/AppData/Roaming/npm/"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -696,55 +738,148 @@ events:
       - "C:/Program Files (x86)/warbot_sim/sbin/"
       - "C:/Program Files (x86)/warbot_sim/"
     searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/rc.com"
-    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/rc.exe"
+      - "C:/Users/artur/bin/rc.com"
+      - "C:/Users/artur/bin/rc.exe"
+      - "C:/Users/artur/bin/rc"
+      - "C:/Program Files/Git/mingw64/bin/rc.com"
+      - "C:/Program Files/Git/mingw64/bin/rc.exe"
+      - "C:/Program Files/Git/mingw64/bin/rc"
+      - "C:/Program Files/Git/usr/local/bin/rc.com"
+      - "C:/Program Files/Git/usr/local/bin/rc.exe"
+      - "C:/Program Files/Git/usr/local/bin/rc"
+      - "C:/Program Files/Git/usr/bin/rc.com"
+      - "C:/Program Files/Git/usr/bin/rc.exe"
+      - "C:/Program Files/Git/usr/bin/rc"
+      - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/rc.com"
+      - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/rc.exe"
+      - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Users/Public/wpilib/2026/jdk/bin/rc.com"
+      - "C:/Users/Public/wpilib/2026/jdk/bin/rc.exe"
+      - "C:/Users/Public/wpilib/2026/jdk/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/artur/.cargo/bin/rc.com"
+      - "C:/Users/artur/.cargo/bin/rc.exe"
+      - "C:/Users/artur/.cargo/bin/rc"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/artur/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/artur/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/artur/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/artur/AppData/Local/JetBrains/Toolbox/scripts/rc.com"
+      - "C:/Users/artur/AppData/Local/JetBrains/Toolbox/scripts/rc.exe"
+      - "C:/Users/artur/AppData/Local/JetBrains/Toolbox/scripts/rc"
+      - "C:/Users/artur/AppData/Local/PowerToys/DSCModules/rc.com"
+      - "C:/Users/artur/AppData/Local/PowerToys/DSCModules/rc.exe"
+      - "C:/Users/artur/AppData/Local/PowerToys/DSCModules/rc"
+      - "C:/ProgramData/artur/GitHubDesktop/bin/rc.com"
+      - "C:/ProgramData/artur/GitHubDesktop/bin/rc.exe"
+      - "C:/ProgramData/artur/GitHubDesktop/bin/rc"
+      - "C:/Users/artur/AppData/Roaming/npm/rc.com"
+      - "C:/Users/artur/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/artur/AppData/Roaming/npm/rc"
+      - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/rc.com"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/rc.exe"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc"
+      - "C:/Program Files/qemu/rc.com"
+      - "C:/Program Files/qemu/rc.exe"
+      - "C:/Program Files/qemu/rc"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/rc.com"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/rc.exe"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/warbot_sim/bin/rc.com"
+      - "C:/Program Files (x86)/warbot_sim/bin/rc.exe"
+      - "C:/Program Files (x86)/warbot_sim/bin/rc"
+      - "C:/Program Files (x86)/warbot_sim/sbin/rc.com"
+      - "C:/Program Files (x86)/warbot_sim/sbin/rc.exe"
+      - "C:/Program Files (x86)/warbot_sim/sbin/rc"
+      - "C:/Program Files (x86)/warbot_sim/rc.com"
+      - "C:/Program Files (x86)/warbot_sim/rc.exe"
+      - "C:/Program Files (x86)/warbot_sim/rc"
+    found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\artur\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\artur\\bin"
         - "C:\\Users\\artur\\Downloads\\pros_cli-3.5.6-win-64bit"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Users\\Public\\wpilib\\2026\\jdk\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\artur\\.cargo\\bin"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher"
         - "C:\\Users\\artur\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\artur\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
-        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules"
         - "C:\\ProgramData\\artur\\GitHubDesktop\\bin"
         - "C:\\Users\\artur\\AppData\\Roaming\\npm"
         - "C:\\Users\\artur\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "C:\\Users\\artur\\.cargo\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\artur\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\bc63ae6e-abb0-4aac-a79d-a47febea9a11\\a7b66dc1-ae1f-4fcc-97e0-133e762d88d7\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/warbot_sim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -760,8 +895,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-m48mt0"
-      binary: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-m48mt0"
+      source: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-729ofs"
+      binary: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-729ofs"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -772,39 +907,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-m48mt0'
+        Change Dir: 'C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-729ofs'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9283a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_64ce4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 6/2/2026 10:17:25 AM.
+        Build started 6/3/2026 12:02:21 PM.
         
-        Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m48mt0\\cmTC_9283a.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-729ofs\\cmTC_64ce4.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m48mt0\\Debug\\".
-          Creating directory "cmTC_9283a.dir\\Debug\\cmTC_9283a.tlog\\".
+          Creating directory "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-729ofs\\Debug\\".
+          Creating directory "cmTC_64ce4.dir\\Debug\\cmTC_64ce4.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_9283a.dir\\Debug\\cmTC_9283a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_9283a.dir\\Debug\\cmTC_9283a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_64ce4.dir\\Debug\\cmTC_64ce4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_64ce4.dir\\Debug\\cmTC_64ce4.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_9283a.dir\\Debug\\\\" /Fd"cmTC_9283a.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_64ce4.dir\\Debug\\\\" /Fd"cmTC_64ce4.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36246 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_9283a.dir\\Debug\\\\" /Fd"cmTC_9283a.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_64ce4.dir\\Debug\\\\" /Fd"cmTC_64ce4.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m48mt0\\Debug\\cmTC_9283a.exe" /INCREMENTAL /ILK:"cmTC_9283a.dir\\Debug\\cmTC_9283a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-m48mt0/Debug/cmTC_9283a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-m48mt0/Debug/cmTC_9283a.lib" /MACHINE:X64  /machine:x64 cmTC_9283a.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_9283a.vcxproj -> C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m48mt0\\Debug\\cmTC_9283a.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-729ofs\\Debug\\cmTC_64ce4.exe" /INCREMENTAL /ILK:"cmTC_64ce4.dir\\Debug\\cmTC_64ce4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-729ofs/Debug/cmTC_64ce4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-729ofs/Debug/cmTC_64ce4.lib" /MACHINE:X64  /machine:x64 cmTC_64ce4.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_64ce4.vcxproj -> C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-729ofs\\Debug\\cmTC_64ce4.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_9283a.dir\\Debug\\cmTC_9283a.tlog\\unsuccessfulbuild".
-          Touching "cmTC_9283a.dir\\Debug\\cmTC_9283a.tlog\\cmTC_9283a.lastbuildstate".
-        Done Building Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m48mt0\\cmTC_9283a.vcxproj" (default targets).
+          Deleting file "cmTC_64ce4.dir\\Debug\\cmTC_64ce4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_64ce4.dir\\Debug\\cmTC_64ce4.tlog\\cmTC_64ce4.lastbuildstate".
+        Done Building Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-729ofs\\cmTC_64ce4.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.68
+        Time Elapsed 00:00:01.06
         
       exitCode: 0
   -
@@ -860,18 +995,10 @@ events:
       - "git.cmd"
       - "git"
     candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "C:/Users/artur/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/"
       - "C:/Program Files/nodejs/"
       - "C:/ProgramData/chocolatey/bin/"
@@ -886,7 +1013,12 @@ events:
       - "C:/ProgramData/artur/GitHubDesktop/bin/"
       - "C:/Users/artur/AppData/Roaming/npm/"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -901,42 +1033,18 @@ events:
       - "C:/Program Files (x86)/warbot_sim/"
       - "C:/Users/artur/AppData/Local/Atlassian/SourceTree/git_local/bin/"
     searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/git.cmd.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/git.cmd.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/git.cmd"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/git.cmd.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/git.cmd.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/git.cmd"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/git.cmd.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/git.cmd.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/git.cmd"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/git.cmd.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/git.cmd.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/git.cmd"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/git.cmd.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/git.cmd.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/git.cmd"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/git.cmd.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/git.cmd.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/git.cmd"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/git.cmd.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/git.cmd.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/git.cmd"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/git.cmd.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/git.cmd.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/git.cmd"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/git.cmd.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/git.cmd.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/git.cmd"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/git.cmd.com"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/git.cmd.exe"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/git.cmd"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/git.cmd.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/git.cmd.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/git.cmd"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/git.cmd.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/git.cmd.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/git.cmd"
+      - "C:/Users/artur/bin/git.cmd.com"
+      - "C:/Users/artur/bin/git.cmd.exe"
+      - "C:/Users/artur/bin/git.cmd"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd.com"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd.exe"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd"
+      - "C:/Program Files/Git/usr/local/bin/git.cmd.com"
+      - "C:/Program Files/Git/usr/local/bin/git.cmd.exe"
+      - "C:/Program Files/Git/usr/local/bin/git.cmd"
+      - "C:/Program Files/Git/usr/bin/git.cmd.com"
+      - "C:/Program Files/Git/usr/bin/git.cmd.exe"
+      - "C:/Program Files/Git/usr/bin/git.cmd"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/git.cmd.com"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/git.cmd.exe"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/git.cmd"
@@ -979,9 +1087,24 @@ events:
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/git.cmd.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/git.cmd.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/git.cmd"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/git.cmd.com"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/git.cmd.exe"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/git.cmd.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/git.cmd.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/git.cmd"
+      - "C:/Program Files/Git/usr/bin/core_perl/git.cmd.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/git.cmd.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/git.cmd"
+      - "C:/Program Files/qemu/git.cmd.com"
+      - "C:/Program Files/qemu/git.cmd.exe"
+      - "C:/Program Files/qemu/git.cmd"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/git.cmd.com"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/git.cmd.exe"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/git.cmd"
       - "C:/Program Files/bin/git.cmd.com"
       - "C:/Program Files/bin/git.cmd.exe"
       - "C:/Program Files/bin/git.cmd"
@@ -1021,381 +1144,44 @@ events:
       - "C:/Users/artur/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
       - "C:/Users/artur/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
       - "C:/Users/artur/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/git.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/git.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/git"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/git.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/git.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/git"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/git.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/git.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/git"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/git.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/git.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/git"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/git.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/git.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/git"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/git.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/git.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/git"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/git.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/git.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/git"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/git.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/git.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/git"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/git.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/git.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/git"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/git.com"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/git.exe"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/git"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/git.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/git.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/git"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/git.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/git.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/git"
-      - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/git.com"
-      - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/git.exe"
-      - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/git"
-      - "C:/Program Files/nodejs/git.com"
-      - "C:/Program Files/nodejs/git.exe"
-      - "C:/Program Files/nodejs/git"
-      - "C:/ProgramData/chocolatey/bin/git.com"
-      - "C:/ProgramData/chocolatey/bin/git.exe"
-      - "C:/ProgramData/chocolatey/bin/git"
-      - "C:/Users/Public/wpilib/2026/jdk/bin/git.com"
-      - "C:/Users/Public/wpilib/2026/jdk/bin/git.exe"
-      - "C:/Users/Public/wpilib/2026/jdk/bin/git"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git"
-      - "C:/Program Files/CMake/bin/git.com"
-      - "C:/Program Files/CMake/bin/git.exe"
-      - "C:/Program Files/CMake/bin/git"
-      - "C:/Users/artur/.cargo/bin/git.com"
-      - "C:/Users/artur/.cargo/bin/git.exe"
-      - "C:/Users/artur/.cargo/bin/git"
-      - "C:/Users/artur/AppData/Local/Programs/Python/Launcher/git.com"
-      - "C:/Users/artur/AppData/Local/Programs/Python/Launcher/git.exe"
-      - "C:/Users/artur/AppData/Local/Programs/Python/Launcher/git"
-      - "C:/Users/artur/AppData/Local/Microsoft/WindowsApps/git.com"
-      - "C:/Users/artur/AppData/Local/Microsoft/WindowsApps/git.exe"
-      - "C:/Users/artur/AppData/Local/Microsoft/WindowsApps/git"
-      - "C:/Users/artur/AppData/Local/JetBrains/Toolbox/scripts/git.com"
-      - "C:/Users/artur/AppData/Local/JetBrains/Toolbox/scripts/git.exe"
-      - "C:/Users/artur/AppData/Local/JetBrains/Toolbox/scripts/git"
-      - "C:/Users/artur/AppData/Local/PowerToys/DSCModules/git.com"
-      - "C:/Users/artur/AppData/Local/PowerToys/DSCModules/git.exe"
-      - "C:/Users/artur/AppData/Local/PowerToys/DSCModules/git"
-      - "C:/ProgramData/artur/GitHubDesktop/bin/git.com"
-      - "C:/ProgramData/artur/GitHubDesktop/bin/git.exe"
-      - "C:/ProgramData/artur/GitHubDesktop/bin/git"
-      - "C:/Users/artur/AppData/Roaming/npm/git.com"
-      - "C:/Users/artur/AppData/Roaming/npm/git.exe"
-      - "C:/Users/artur/AppData/Roaming/npm/git"
-      - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/git.com"
-      - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/git.exe"
-      - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/git"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/git.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/git.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/git"
-      - "C:/Program Files/bin/git.com"
-      - "C:/Program Files/bin/git.exe"
-      - "C:/Program Files/bin/git"
-      - "C:/Program Files/sbin/git.com"
-      - "C:/Program Files/sbin/git.exe"
-      - "C:/Program Files/sbin/git"
-      - "C:/Program Files/git.com"
-      - "C:/Program Files/git.exe"
-      - "C:/Program Files/git"
-      - "C:/Program Files (x86)/bin/git.com"
-      - "C:/Program Files (x86)/bin/git.exe"
-      - "C:/Program Files (x86)/bin/git"
-      - "C:/Program Files (x86)/sbin/git.com"
-      - "C:/Program Files (x86)/sbin/git.exe"
-      - "C:/Program Files (x86)/sbin/git"
-      - "C:/Program Files (x86)/git.com"
-      - "C:/Program Files (x86)/git.exe"
-      - "C:/Program Files (x86)/git"
-      - "C:/Program Files/CMake/bin/git.com"
-      - "C:/Program Files/CMake/bin/git.exe"
-      - "C:/Program Files/CMake/bin/git"
-      - "C:/Program Files/CMake/sbin/git.com"
-      - "C:/Program Files/CMake/sbin/git.exe"
-      - "C:/Program Files/CMake/sbin/git"
-      - "C:/Program Files/CMake/git.com"
-      - "C:/Program Files/CMake/git.exe"
-      - "C:/Program Files/CMake/git"
-      - "C:/Program Files (x86)/warbot_sim/bin/git.com"
-      - "C:/Program Files (x86)/warbot_sim/bin/git.exe"
-      - "C:/Program Files (x86)/warbot_sim/bin/git"
-      - "C:/Program Files (x86)/warbot_sim/sbin/git.com"
-      - "C:/Program Files (x86)/warbot_sim/sbin/git.exe"
-      - "C:/Program Files (x86)/warbot_sim/sbin/git"
-      - "C:/Program Files (x86)/warbot_sim/git.com"
-      - "C:/Program Files (x86)/warbot_sim/git.exe"
-      - "C:/Program Files (x86)/warbot_sim/git"
-      - "C:/Users/artur/AppData/Local/Atlassian/SourceTree/git_local/bin/git.com"
-      - "C:/Users/artur/AppData/Local/Atlassian/SourceTree/git_local/bin/git.exe"
-      - "C:/Users/artur/AppData/Local/Atlassian/SourceTree/git_local/bin/git"
-    found: false
+      - "C:/Users/artur/bin/git.com"
+      - "C:/Users/artur/bin/git.exe"
+      - "C:/Users/artur/bin/git"
+      - "C:/Program Files/Git/mingw64/bin/git.com"
+    found: "C:/Program Files/Git/mingw64/bin/git.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\artur\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\artur\\bin"
         - "C:\\Users\\artur\\Downloads\\pros_cli-3.5.6-win-64bit"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Users\\Public\\wpilib\\2026\\jdk\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\artur\\.cargo\\bin"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher"
         - "C:\\Users\\artur\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\artur\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
-        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules"
         - "C:\\ProgramData\\artur\\GitHubDesktop\\bin"
         - "C:\\Users\\artur\\AppData\\Roaming\\npm"
         - "C:\\Users\\artur\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/warbot_sim"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/warbot_sim"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake:122 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1887 (find_package)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158:EVAL:2 (__FetchContent_doPopulation)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158 (cmake_language)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2399 (__FetchContent_Populate)"
-      - "CMakeLists.txt:17 (FetchContent_MakeAvailable)"
-    mode: "program"
-    variable: "GIT_EXECUTABLE"
-    description: "Git command line client"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "git.cmd"
-      - "git"
-    candidate_directories:
-      - "C:/Program Files/bin/Git/cmd/"
-      - "C:/Program Files/bin/Git/bin/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/Git/cmd/"
-      - "C:/Program Files/sbin/Git/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/Git/bin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/Git/cmd/"
-      - "C:/Program Files (x86)/bin/Git/bin/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/Git/cmd/"
-      - "C:/Program Files (x86)/sbin/Git/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/Git/cmd/"
-      - "C:/Program Files (x86)/Git/bin/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/bin/Git/cmd/"
-      - "C:/Program Files/CMake/bin/Git/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/sbin/Git/cmd/"
-      - "C:/Program Files/CMake/sbin/Git/bin/"
-      - "C:/Program Files/CMake/sbin/"
-      - "C:/Program Files/CMake/Git/cmd/"
-      - "C:/Program Files/CMake/Git/bin/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/warbot_sim/bin/Git/cmd/"
-      - "C:/Program Files (x86)/warbot_sim/bin/Git/bin/"
-      - "C:/Program Files (x86)/warbot_sim/bin/"
-      - "C:/Program Files (x86)/warbot_sim/sbin/Git/cmd/"
-      - "C:/Program Files (x86)/warbot_sim/sbin/Git/bin/"
-      - "C:/Program Files (x86)/warbot_sim/sbin/"
-      - "C:/Program Files (x86)/warbot_sim/Git/cmd/"
-      - "C:/Program Files (x86)/warbot_sim/Git/bin/"
-      - "C:/Program Files (x86)/warbot_sim/"
-    searched_directories:
-      - "C:/Program Files/bin/Git/cmd/git.cmd.com"
-      - "C:/Program Files/bin/Git/cmd/git.cmd.exe"
-      - "C:/Program Files/bin/Git/cmd/git.cmd"
-      - "C:/Program Files/bin/Git/bin/git.cmd.com"
-      - "C:/Program Files/bin/Git/bin/git.cmd.exe"
-      - "C:/Program Files/bin/Git/bin/git.cmd"
-      - "C:/Program Files/bin/git.cmd.com"
-      - "C:/Program Files/bin/git.cmd.exe"
-      - "C:/Program Files/bin/git.cmd"
-      - "C:/Program Files/sbin/Git/cmd/git.cmd.com"
-      - "C:/Program Files/sbin/Git/cmd/git.cmd.exe"
-      - "C:/Program Files/sbin/Git/cmd/git.cmd"
-      - "C:/Program Files/sbin/Git/bin/git.cmd.com"
-      - "C:/Program Files/sbin/Git/bin/git.cmd.exe"
-      - "C:/Program Files/sbin/Git/bin/git.cmd"
-      - "C:/Program Files/sbin/git.cmd.com"
-      - "C:/Program Files/sbin/git.cmd.exe"
-      - "C:/Program Files/sbin/git.cmd"
-      - "C:/Program Files/Git/cmd/git.cmd.com"
-      - "C:/Program Files/Git/cmd/git.cmd.exe"
-      - "C:/Program Files/Git/cmd/git.cmd"
-      - "C:/Program Files/Git/bin/git.cmd.com"
-      - "C:/Program Files/Git/bin/git.cmd.exe"
-      - "C:/Program Files/Git/bin/git.cmd"
-      - "C:/Program Files/git.cmd.com"
-      - "C:/Program Files/git.cmd.exe"
-      - "C:/Program Files/git.cmd"
-      - "C:/Program Files (x86)/bin/Git/cmd/git.cmd.com"
-      - "C:/Program Files (x86)/bin/Git/cmd/git.cmd.exe"
-      - "C:/Program Files (x86)/bin/Git/cmd/git.cmd"
-      - "C:/Program Files (x86)/bin/Git/bin/git.cmd.com"
-      - "C:/Program Files (x86)/bin/Git/bin/git.cmd.exe"
-      - "C:/Program Files (x86)/bin/Git/bin/git.cmd"
-      - "C:/Program Files (x86)/bin/git.cmd.com"
-      - "C:/Program Files (x86)/bin/git.cmd.exe"
-      - "C:/Program Files (x86)/bin/git.cmd"
-      - "C:/Program Files (x86)/sbin/Git/cmd/git.cmd.com"
-      - "C:/Program Files (x86)/sbin/Git/cmd/git.cmd.exe"
-      - "C:/Program Files (x86)/sbin/Git/cmd/git.cmd"
-      - "C:/Program Files (x86)/sbin/Git/bin/git.cmd.com"
-      - "C:/Program Files (x86)/sbin/Git/bin/git.cmd.exe"
-      - "C:/Program Files (x86)/sbin/Git/bin/git.cmd"
-      - "C:/Program Files (x86)/sbin/git.cmd.com"
-      - "C:/Program Files (x86)/sbin/git.cmd.exe"
-      - "C:/Program Files (x86)/sbin/git.cmd"
-      - "C:/Program Files (x86)/Git/cmd/git.cmd.com"
-      - "C:/Program Files (x86)/Git/cmd/git.cmd.exe"
-      - "C:/Program Files (x86)/Git/cmd/git.cmd"
-      - "C:/Program Files (x86)/Git/bin/git.cmd.com"
-      - "C:/Program Files (x86)/Git/bin/git.cmd.exe"
-      - "C:/Program Files (x86)/Git/bin/git.cmd"
-      - "C:/Program Files (x86)/git.cmd.com"
-      - "C:/Program Files (x86)/git.cmd.exe"
-      - "C:/Program Files (x86)/git.cmd"
-      - "C:/Program Files/CMake/bin/Git/cmd/git.cmd.com"
-      - "C:/Program Files/CMake/bin/Git/cmd/git.cmd.exe"
-      - "C:/Program Files/CMake/bin/Git/cmd/git.cmd"
-      - "C:/Program Files/CMake/bin/Git/bin/git.cmd.com"
-      - "C:/Program Files/CMake/bin/Git/bin/git.cmd.exe"
-      - "C:/Program Files/CMake/bin/Git/bin/git.cmd"
-      - "C:/Program Files/CMake/bin/git.cmd.com"
-      - "C:/Program Files/CMake/bin/git.cmd.exe"
-      - "C:/Program Files/CMake/bin/git.cmd"
-      - "C:/Program Files/CMake/sbin/Git/cmd/git.cmd.com"
-      - "C:/Program Files/CMake/sbin/Git/cmd/git.cmd.exe"
-      - "C:/Program Files/CMake/sbin/Git/cmd/git.cmd"
-      - "C:/Program Files/CMake/sbin/Git/bin/git.cmd.com"
-      - "C:/Program Files/CMake/sbin/Git/bin/git.cmd.exe"
-      - "C:/Program Files/CMake/sbin/Git/bin/git.cmd"
-      - "C:/Program Files/CMake/sbin/git.cmd.com"
-      - "C:/Program Files/CMake/sbin/git.cmd.exe"
-      - "C:/Program Files/CMake/sbin/git.cmd"
-      - "C:/Program Files/CMake/Git/cmd/git.cmd.com"
-      - "C:/Program Files/CMake/Git/cmd/git.cmd.exe"
-      - "C:/Program Files/CMake/Git/cmd/git.cmd"
-      - "C:/Program Files/CMake/Git/bin/git.cmd.com"
-      - "C:/Program Files/CMake/Git/bin/git.cmd.exe"
-      - "C:/Program Files/CMake/Git/bin/git.cmd"
-      - "C:/Program Files/CMake/git.cmd.com"
-      - "C:/Program Files/CMake/git.cmd.exe"
-      - "C:/Program Files/CMake/git.cmd"
-      - "C:/Program Files (x86)/warbot_sim/bin/Git/cmd/git.cmd.com"
-      - "C:/Program Files (x86)/warbot_sim/bin/Git/cmd/git.cmd.exe"
-      - "C:/Program Files (x86)/warbot_sim/bin/Git/cmd/git.cmd"
-      - "C:/Program Files (x86)/warbot_sim/bin/Git/bin/git.cmd.com"
-      - "C:/Program Files (x86)/warbot_sim/bin/Git/bin/git.cmd.exe"
-      - "C:/Program Files (x86)/warbot_sim/bin/Git/bin/git.cmd"
-      - "C:/Program Files (x86)/warbot_sim/bin/git.cmd.com"
-      - "C:/Program Files (x86)/warbot_sim/bin/git.cmd.exe"
-      - "C:/Program Files (x86)/warbot_sim/bin/git.cmd"
-      - "C:/Program Files (x86)/warbot_sim/sbin/Git/cmd/git.cmd.com"
-      - "C:/Program Files (x86)/warbot_sim/sbin/Git/cmd/git.cmd.exe"
-      - "C:/Program Files (x86)/warbot_sim/sbin/Git/cmd/git.cmd"
-      - "C:/Program Files (x86)/warbot_sim/sbin/Git/bin/git.cmd.com"
-      - "C:/Program Files (x86)/warbot_sim/sbin/Git/bin/git.cmd.exe"
-      - "C:/Program Files (x86)/warbot_sim/sbin/Git/bin/git.cmd"
-      - "C:/Program Files (x86)/warbot_sim/sbin/git.cmd.com"
-      - "C:/Program Files (x86)/warbot_sim/sbin/git.cmd.exe"
-      - "C:/Program Files (x86)/warbot_sim/sbin/git.cmd"
-      - "C:/Program Files (x86)/warbot_sim/Git/cmd/git.cmd.com"
-      - "C:/Program Files (x86)/warbot_sim/Git/cmd/git.cmd.exe"
-      - "C:/Program Files (x86)/warbot_sim/Git/cmd/git.cmd"
-      - "C:/Program Files (x86)/warbot_sim/Git/bin/git.cmd.com"
-      - "C:/Program Files (x86)/warbot_sim/Git/bin/git.cmd.exe"
-      - "C:/Program Files (x86)/warbot_sim/Git/bin/git.cmd"
-      - "C:/Program Files (x86)/warbot_sim/git.cmd.com"
-      - "C:/Program Files (x86)/warbot_sim/git.cmd.exe"
-      - "C:/Program Files (x86)/warbot_sim/git.cmd"
-      - "C:/Program Files/bin/Git/cmd/git.com"
-      - "C:/Program Files/bin/Git/cmd/git.exe"
-      - "C:/Program Files/bin/Git/cmd/git"
-      - "C:/Program Files/bin/Git/bin/git.com"
-      - "C:/Program Files/bin/Git/bin/git.exe"
-      - "C:/Program Files/bin/Git/bin/git"
-      - "C:/Program Files/bin/git.com"
-      - "C:/Program Files/bin/git.exe"
-      - "C:/Program Files/bin/git"
-      - "C:/Program Files/sbin/Git/cmd/git.com"
-      - "C:/Program Files/sbin/Git/cmd/git.exe"
-      - "C:/Program Files/sbin/Git/cmd/git"
-      - "C:/Program Files/sbin/Git/bin/git.com"
-      - "C:/Program Files/sbin/Git/bin/git.exe"
-      - "C:/Program Files/sbin/Git/bin/git"
-      - "C:/Program Files/sbin/git.com"
-      - "C:/Program Files/sbin/git.exe"
-      - "C:/Program Files/sbin/git"
-      - "C:/Program Files/Git/cmd/git.com"
-    found: "C:/Program Files/Git/cmd/git.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
-        - "C:\\Users\\artur\\Downloads\\pros_cli-3.5.6-win-64bit"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Users\\Public\\wpilib\\2026\\jdk\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
         - "C:\\Users\\artur\\.cargo\\bin"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\artur\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\artur\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
-        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:\\ProgramData\\artur\\GitHubDesktop\\bin"
-        - "C:\\Users\\artur\\AppData\\Roaming\\npm"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\artur\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\bc63ae6e-abb0-4aac-a79d-a47febea9a11\\a7b66dc1-ae1f-4fcc-97e0-133e762d88d7\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/warbot_sim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1429,47 +1215,43 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\artur\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\artur\\bin"
         - "C:\\Users\\artur\\Downloads\\pros_cli-3.5.6-win-64bit"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Users\\Public\\wpilib\\2026\\jdk\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\artur\\.cargo\\bin"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher"
         - "C:\\Users\\artur\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\artur\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
-        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules"
         - "C:\\ProgramData\\artur\\GitHubDesktop\\bin"
         - "C:\\Users\\artur\\AppData\\Roaming\\npm"
         - "C:\\Users\\artur\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "C:\\Users\\artur\\.cargo\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\artur\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\bc63ae6e-abb0-4aac-a79d-a47febea9a11\\a7b66dc1-ae1f-4fcc-97e0-133e762d88d7\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/warbot_sim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/warbot_sim"
-      ENV{INCLUDE}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\include"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\VS\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
   -
     kind: "message-v1"
     backtrace:
@@ -1486,9 +1268,9 @@ events:
       The output was:
       0
       MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-      Build started 6/2/2026 10:18:12 AM.
+      Build started 6/3/2026 12:03:16 PM.
       
-      Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -1501,7 +1283,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -1509,13 +1291,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.63
+      Time Elapsed 00:00:01.17
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -1523,7 +1305,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/4.3.3/CompilerIdC/CompilerIdC.exe
+        C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/4.3.3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "find-v1"
@@ -1548,18 +1330,10 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "C:/Users/artur/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/"
       - "C:/Program Files/nodejs/"
       - "C:/ProgramData/chocolatey/bin/"
@@ -1574,7 +1348,12 @@ events:
       - "C:/ProgramData/artur/GitHubDesktop/bin/"
       - "C:/Users/artur/AppData/Roaming/npm/"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1591,42 +1370,18 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link"
+      - "C:/Users/artur/bin/lld-link.com"
+      - "C:/Users/artur/bin/lld-link.exe"
+      - "C:/Users/artur/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/lld-link.com"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/lld-link.exe"
       - "C:/Users/artur/Downloads/pros_cli-3.5.6-win-64bit/lld-link"
@@ -1669,9 +1424,24 @@ events:
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
       - "C:/Users/artur/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/lld-link.com"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/lld-link.exe"
+      - "C:/Users/artur/AppData/Local/Programs/Python/Python314/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+      - "C:/Program Files/qemu/lld-link.com"
+      - "C:/Program Files/qemu/lld-link.exe"
+      - "C:/Program Files/qemu/lld-link"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/lld-link.com"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/lld-link.exe"
+      - "C:/Users/artur/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/bc63ae6e-abb0-4aac-a79d-a47febea9a11/a7b66dc1-ae1f-4fcc-97e0-133e762d88d7/bin/lld-link"
       - "C:/Program Files/bin/lld-link.com"
       - "C:/Program Files/bin/lld-link.exe"
       - "C:/Program Files/bin/lld-link"
@@ -1711,33 +1481,37 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\artur\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\artur\\bin"
         - "C:\\Users\\artur\\Downloads\\pros_cli-3.5.6-win-64bit"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Users\\Public\\wpilib\\2026\\jdk\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\artur\\.cargo\\bin"
-        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Launcher"
         - "C:\\Users\\artur\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\artur\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
-        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\artur\\AppData\\Local\\PowerToys\\DSCModules"
         - "C:\\ProgramData\\artur\\GitHubDesktop\\bin"
         - "C:\\Users\\artur\\AppData\\Roaming\\npm"
         - "C:\\Users\\artur\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Users\\artur\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "C:\\Users\\artur\\.cargo\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\artur\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\bc63ae6e-abb0-4aac-a79d-a47febea9a11\\a7b66dc1-ae1f-4fcc-97e0-133e762d88d7\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/warbot_sim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1753,8 +1527,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-78q6dl"
-      binary: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-78q6dl"
+      source: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-ai3ipa"
+      binary: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-ai3ipa"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -1763,39 +1537,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-78q6dl'
+        Change Dir: 'C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-ai3ipa'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_96299.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b16d7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 6/2/2026 10:18:13 AM.
+        Build started 6/3/2026 12:03:18 PM.
         
-        Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-78q6dl\\cmTC_96299.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai3ipa\\cmTC_b16d7.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-78q6dl\\Debug\\".
-          Creating directory "cmTC_96299.dir\\Debug\\cmTC_96299.tlog\\".
+          Creating directory "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai3ipa\\Debug\\".
+          Creating directory "cmTC_b16d7.dir\\Debug\\cmTC_b16d7.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_96299.dir\\Debug\\cmTC_96299.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_96299.dir\\Debug\\cmTC_96299.tlog\\unsuccessfulbuild".
+          Creating "cmTC_b16d7.dir\\Debug\\cmTC_b16d7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b16d7.dir\\Debug\\cmTC_b16d7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_96299.dir\\Debug\\\\" /Fd"cmTC_96299.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b16d7.dir\\Debug\\\\" /Fd"cmTC_b16d7.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36246 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_96299.dir\\Debug\\\\" /Fd"cmTC_96299.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b16d7.dir\\Debug\\\\" /Fd"cmTC_b16d7.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-78q6dl\\Debug\\cmTC_96299.exe" /INCREMENTAL /ILK:"cmTC_96299.dir\\Debug\\cmTC_96299.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-78q6dl/Debug/cmTC_96299.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-78q6dl/Debug/cmTC_96299.lib" /MACHINE:X64  /machine:x64 cmTC_96299.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_96299.vcxproj -> C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-78q6dl\\Debug\\cmTC_96299.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai3ipa\\Debug\\cmTC_b16d7.exe" /INCREMENTAL /ILK:"cmTC_b16d7.dir\\Debug\\cmTC_b16d7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-ai3ipa/Debug/cmTC_b16d7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-ai3ipa/Debug/cmTC_b16d7.lib" /MACHINE:X64  /machine:x64 cmTC_b16d7.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_b16d7.vcxproj -> C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai3ipa\\Debug\\cmTC_b16d7.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_96299.dir\\Debug\\cmTC_96299.tlog\\unsuccessfulbuild".
-          Touching "cmTC_96299.dir\\Debug\\cmTC_96299.tlog\\cmTC_96299.lastbuildstate".
-        Done Building Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-78q6dl\\cmTC_96299.vcxproj" (default targets).
+          Deleting file "cmTC_b16d7.dir\\Debug\\cmTC_b16d7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b16d7.dir\\Debug\\cmTC_b16d7.tlog\\cmTC_b16d7.lastbuildstate".
+        Done Building Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ai3ipa\\cmTC_b16d7.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.61
+        Time Elapsed 00:00:01.05
         
       exitCode: 0
   -
@@ -1838,49 +1612,49 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
     directories:
-      source: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-cl9a4z"
-      binary: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-cl9a4z"
+      source: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-q4aix5"
+      binary: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-q4aix5"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake"
     buildResult:
       variable: "COMPILER_HAS_THOSE_TOGGLES"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-cl9a4z'
+        Change Dir: 'C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-q4aix5'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02317.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c77f4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 6/2/2026 10:18:14 AM.
+        Build started 6/3/2026 12:03:20 PM.
         
-        Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cl9a4z\\cmTC_02317.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4aix5\\cmTC_c77f4.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cl9a4z\\Debug\\".
-          Creating directory "cmTC_02317.dir\\Debug\\cmTC_02317.tlog\\".
+          Creating directory "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4aix5\\Debug\\".
+          Creating directory "cmTC_c77f4.dir\\Debug\\cmTC_c77f4.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_02317.dir\\Debug\\cmTC_02317.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_02317.dir\\Debug\\cmTC_02317.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c77f4.dir\\Debug\\cmTC_c77f4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c77f4.dir\\Debug\\cmTC_c77f4.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_02317.dir\\Debug\\\\" /Fd"cmTC_02317.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue  -Werror=pointer-arith "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cl9a4z\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c77f4.dir\\Debug\\\\" /Fd"cmTC_c77f4.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue  -Werror=pointer-arith "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4aix5\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36246 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_02317.dir\\Debug\\\\" /Fd"cmTC_02317.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue  -Werror=pointer-arith "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cl9a4z\\src.c"
-        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cl9a4z\\cmTC_02317.vcxproj]
-        Done Building Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cl9a4z\\cmTC_02317.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c77f4.dir\\Debug\\\\" /Fd"cmTC_c77f4.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue  -Werror=pointer-arith "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4aix5\\src.c"
+        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4aix5\\cmTC_c77f4.vcxproj]
+        Done Building Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4aix5\\cmTC_c77f4.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cl9a4z\\cmTC_02317.vcxproj" (default target) (1) ->
+        "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4aix5\\cmTC_c77f4.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cl9a4z\\cmTC_02317.vcxproj]
+          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4aix5\\cmTC_c77f4.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.38
+        Time Elapsed 00:00:00.61
         
       exitCode: 1
   -
@@ -1894,50 +1668,50 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-d7jj6n"
-      binary: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-d7jj6n"
+      source: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-1qaw1c"
+      binary: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-1qaw1c"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake;C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake;C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/src/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-d7jj6n'
+        Change Dir: 'C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-1qaw1c'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_12296.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9b508.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 6/2/2026 10:18:15 AM.
+        Build started 6/3/2026 12:03:21 PM.
         
-        Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7jj6n\\cmTC_12296.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qaw1c\\cmTC_9b508.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7jj6n\\Debug\\".
-          Creating directory "cmTC_12296.dir\\Debug\\cmTC_12296.tlog\\".
+          Creating directory "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qaw1c\\Debug\\".
+          Creating directory "cmTC_9b508.dir\\Debug\\cmTC_9b508.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_12296.dir\\Debug\\cmTC_12296.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_12296.dir\\Debug\\cmTC_12296.tlog\\unsuccessfulbuild".
+          Creating "cmTC_9b508.dir\\Debug\\cmTC_9b508.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9b508.dir\\Debug\\cmTC_9b508.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_12296.dir\\Debug\\\\" /Fd"cmTC_12296.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7jj6n\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9b508.dir\\Debug\\\\" /Fd"cmTC_9b508.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qaw1c\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36246 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_12296.dir\\Debug\\\\" /Fd"cmTC_12296.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7jj6n\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9b508.dir\\Debug\\\\" /Fd"cmTC_9b508.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qaw1c\\src.c"
           src.c
-        C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7jj6n\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7jj6n\\cmTC_12296.vcxproj]
-        Done Building Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7jj6n\\cmTC_12296.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qaw1c\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qaw1c\\cmTC_9b508.vcxproj]
+        Done Building Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qaw1c\\cmTC_9b508.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7jj6n\\cmTC_12296.vcxproj" (default target) (1) ->
+        "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qaw1c\\cmTC_9b508.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7jj6n\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7jj6n\\cmTC_12296.vcxproj]
+          C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qaw1c\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qaw1c\\cmTC_9b508.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.43
+        Time Elapsed 00:00:00.73
         
       exitCode: 1
   -
@@ -1950,53 +1724,53 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-68udeu"
-      binary: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-68udeu"
+      source: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-qckmyp"
+      binary: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-qckmyp"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake;C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake;C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/src/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-68udeu'
+        Change Dir: 'C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-qckmyp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cbef4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2083f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 6/2/2026 10:18:16 AM.
+        Build started 6/3/2026 12:03:22 PM.
         
-        Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68udeu\\cmTC_cbef4.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qckmyp\\cmTC_2083f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68udeu\\Debug\\".
-          Creating directory "cmTC_cbef4.dir\\Debug\\cmTC_cbef4.tlog\\".
+          Creating directory "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qckmyp\\Debug\\".
+          Creating directory "cmTC_2083f.dir\\Debug\\cmTC_2083f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_cbef4.dir\\Debug\\cmTC_cbef4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_cbef4.dir\\Debug\\cmTC_cbef4.tlog\\unsuccessfulbuild".
+          Creating "cmTC_2083f.dir\\Debug\\cmTC_2083f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2083f.dir\\Debug\\cmTC_2083f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cbef4.dir\\Debug\\\\" /Fd"cmTC_cbef4.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68udeu\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2083f.dir\\Debug\\\\" /Fd"cmTC_2083f.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qckmyp\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36246 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cbef4.dir\\Debug\\\\" /Fd"cmTC_cbef4.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68udeu\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2083f.dir\\Debug\\\\" /Fd"cmTC_2083f.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qckmyp\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68udeu\\Debug\\cmTC_cbef4.exe" /INCREMENTAL /ILK:"cmTC_cbef4.dir\\Debug\\cmTC_cbef4.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-68udeu/Debug/cmTC_cbef4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-68udeu/Debug/cmTC_cbef4.lib" /MACHINE:X64  /machine:x64 cmTC_cbef4.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68udeu\\cmTC_cbef4.vcxproj]
-        Done Building Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68udeu\\cmTC_cbef4.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qckmyp\\Debug\\cmTC_2083f.exe" /INCREMENTAL /ILK:"cmTC_2083f.dir\\Debug\\cmTC_2083f.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-qckmyp/Debug/cmTC_2083f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-qckmyp/Debug/cmTC_2083f.lib" /MACHINE:X64  /machine:x64 cmTC_2083f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qckmyp\\cmTC_2083f.vcxproj]
+        Done Building Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qckmyp\\cmTC_2083f.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68udeu\\cmTC_cbef4.vcxproj" (default target) (1) ->
+        "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qckmyp\\cmTC_2083f.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68udeu\\cmTC_cbef4.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qckmyp\\cmTC_2083f.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.54
+        Time Elapsed 00:00:00.85
         
       exitCode: 1
   -
@@ -2009,53 +1783,53 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-l25myr"
-      binary: "C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-l25myr"
+      source: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-pf7zfk"
+      binary: "C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-pf7zfk"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/cmake;C:/Users/artur/Downloads/Warbot-Template/sim/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/cmake;C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raylib-src/src/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-l25myr'
+        Change Dir: 'C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-pf7zfk'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3abe9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7b1f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 6/2/2026 10:18:17 AM.
+        Build started 6/3/2026 12:03:24 PM.
         
-        Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l25myr\\cmTC_3abe9.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pf7zfk\\cmTC_7b1f5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l25myr\\Debug\\".
-          Creating directory "cmTC_3abe9.dir\\Debug\\cmTC_3abe9.tlog\\".
+          Creating directory "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pf7zfk\\Debug\\".
+          Creating directory "cmTC_7b1f5.dir\\Debug\\cmTC_7b1f5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_3abe9.dir\\Debug\\cmTC_3abe9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_3abe9.dir\\Debug\\cmTC_3abe9.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7b1f5.dir\\Debug\\cmTC_7b1f5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7b1f5.dir\\Debug\\cmTC_7b1f5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3abe9.dir\\Debug\\\\" /Fd"cmTC_3abe9.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l25myr\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7b1f5.dir\\Debug\\\\" /Fd"cmTC_7b1f5.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pf7zfk\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36246 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3abe9.dir\\Debug\\\\" /Fd"cmTC_3abe9.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l25myr\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7b1f5.dir\\Debug\\\\" /Fd"cmTC_7b1f5.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pf7zfk\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l25myr\\Debug\\cmTC_3abe9.exe" /INCREMENTAL /ILK:"cmTC_3abe9.dir\\Debug\\cmTC_3abe9.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-l25myr/Debug/cmTC_3abe9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/artur/Downloads/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-l25myr/Debug/cmTC_3abe9.lib" /MACHINE:X64  /machine:x64 cmTC_3abe9.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l25myr\\cmTC_3abe9.vcxproj]
-        Done Building Project "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l25myr\\cmTC_3abe9.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pf7zfk\\Debug\\cmTC_7b1f5.exe" /INCREMENTAL /ILK:"cmTC_7b1f5.dir\\Debug\\cmTC_7b1f5.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-pf7zfk/Debug/cmTC_7b1f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/artur/Projects/Warbot-Template/sim/build/CMakeFiles/CMakeScratch/TryCompile-pf7zfk/Debug/cmTC_7b1f5.lib" /MACHINE:X64  /machine:x64 cmTC_7b1f5.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pf7zfk\\cmTC_7b1f5.vcxproj]
+        Done Building Project "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pf7zfk\\cmTC_7b1f5.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l25myr\\cmTC_3abe9.vcxproj" (default target) (1) ->
+        "C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pf7zfk\\cmTC_7b1f5.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\artur\\Downloads\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l25myr\\cmTC_3abe9.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\artur\\Projects\\Warbot-Template\\sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pf7zfk\\cmTC_7b1f5.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.57
+        Time Elapsed 00:00:00.84
         
       exitCode: 1
 ...

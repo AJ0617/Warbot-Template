@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\CMakeFiles\1f2dd27790eb882acace0295460b6ef4\update_mappings.rule">
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\CMakeFiles\4a679d53757806eb0a14355e21fbbb9d\update_mappings.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
+    <None Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake" />
-    <None Include="C:\Users\artur\Downloads\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings" />
+    <None Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\artur\Projects\Warbot-Template\sim\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{0CFC7125-F7A0-31A7-B7FE-CE22B87ABC06}</UniqueIdentifier>
+      <UniqueIdentifier>{43B32770-954A-338D-8453-34CFC1C36446}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{742BF98D-BD44-38E2-AE0F-4B02F1BF4F0E}</UniqueIdentifier>
+      <UniqueIdentifier>{D9D58730-A27A-308B-A0EF-0C144A312228}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

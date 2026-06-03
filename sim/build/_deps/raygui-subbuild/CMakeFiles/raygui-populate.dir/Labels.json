@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/raygui-populate"
+		},
+		{
+			"file" : "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/658f1ccba7c952aa2015987049e72356/raygui-populate.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/61b387798ef9f52691fb15d1fddbf1e3/raygui-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/70a80bd160f0c389bfe79ded9e136cd5/raygui-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/70a80bd160f0c389bfe79ded9e136cd5/raygui-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/70a80bd160f0c389bfe79ded9e136cd5/raygui-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/70a80bd160f0c389bfe79ded9e136cd5/raygui-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/70a80bd160f0c389bfe79ded9e136cd5/raygui-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/70a80bd160f0c389bfe79ded9e136cd5/raygui-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/70a80bd160f0c389bfe79ded9e136cd5/raygui-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/artur/Projects/Warbot-Template/sim/build/_deps/raygui-subbuild/CMakeFiles/70a80bd160f0c389bfe79ded9e136cd5/raygui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"raygui-populate"
+		],
+		"name" : "raygui-populate"
+	}
+}

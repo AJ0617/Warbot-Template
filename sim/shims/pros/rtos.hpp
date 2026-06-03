@@ -8,8 +8,16 @@
 
 namespace pros {
 
+struct SimStopException {};
+inline std::atomic<bool> g_stop_requested{false};
+
 inline void delay(std::uint32_t ms) {
-    std::this_thread::sleep_for(std::chrono::milliseconds(ms));
+    using Clock = std::chrono::steady_clock;
+    auto end = Clock::now() + std::chrono::milliseconds(ms);
+    while (Clock::now() < end) {
+        if (g_stop_requested.load()) throw SimStopException{};
+        std::this_thread::sleep_for(std::chrono::milliseconds(1));
+    }
 }
 
 inline std::uint32_t millis() {

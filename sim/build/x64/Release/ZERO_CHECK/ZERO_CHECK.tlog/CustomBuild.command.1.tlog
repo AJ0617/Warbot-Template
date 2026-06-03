@@ -1,6 +1,6 @@
-^C:\USERS\ARTUR\DOWNLOADS\WARBOT-TEMPLATE\SIM\BUILD\CMAKEFILES\5E952ABF35D49E9306D2C5F9E1CE4919\GENERATE.STAMP.RULE
+^C:\USERS\ARTUR\PROJECTS\WARBOT-TEMPLATE\SIM\BUILD\CMAKEFILES\CB6A8D74A3CC3ED460CC67CBF615F8AE\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/artur/Downloads/Warbot-Template/sim -BC:/Users/artur/Downloads/Warbot-Template/sim/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/artur/Downloads/Warbot-Template/sim/build/warbot_sim.slnx
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/artur/Projects/Warbot-Template/sim -BC:/Users/artur/Projects/Warbot-Template/sim/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/artur/Projects/Warbot-Template/sim/build/warbot_sim.slnx
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
