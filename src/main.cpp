@@ -32,17 +32,18 @@ void initialize() {
 	//Have Rotation Sensors/Odom Pods on your drivetrain?
 	//Add them Here!!
 	// drive.addHorizontalTrackingWheel(15, 3.25);
+	drive.addVerticalTrackingWheel(-1, 2.0);
 
 	//Edit These Values here to configure and tune PID!!!
 	//                 kP,  kI,  kD,   timeout
 	drive.setDrivePID({8.0, 0.0, 12.0, 3000.0});
 	drive.setTurnPID( {5.0, 0.0, 8.0, 2000.0});
 
-	drive.addVerticalTrackingWheel(-1, 2.0);
 	drive.setTrackWidth(12);
 	drive.setOdomConfig(warbots::Drive::odomConfig::IMU_VERTICAL);
 	drive.initImu();
 	drive.resetPose();
+	
 	
 	register_autons();
     pros::lcd::initialize();

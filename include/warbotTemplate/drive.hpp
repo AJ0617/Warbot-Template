@@ -225,37 +225,43 @@ void setDriveType(driveControlType type){
     currentControlType = type;
 }
 
+/* SWING TURN---------------------------------------
+Selects which side of the drivetrain stays locked during a swing turn.
+The locked side is held in place while the other side drives, so the robot
+pivots around the stationary wheel.
+*/
+
 
 void control(pros::Controller& controller){
     int leftx = controller.get_analog(ANALOG_LEFT_X);
     int lefty = controller.get_analog(ANALOG_LEFT_Y);
     int rightx = controller.get_analog(ANALOG_RIGHT_X);
     int righty = controller.get_analog(ANALOG_RIGHT_Y);
-
+    
     switch (currentControlType) {
         case TANK:
-            moveLeftSide(lefty);
-            moveRightSide(righty);
+        moveLeftSide(lefty);
+        moveRightSide(righty);
         break;
-
+        
         case SINGLE_ARCADE:
-            moveLeftSide(lefty + leftx);
-            moveRightSide(lefty - leftx);
+        moveLeftSide(lefty + leftx);
+        moveRightSide(lefty - leftx);
         break;
-
+        
         case FLIPPED_SINGLE_ARCADE:
-            moveLeftSide(righty + rightx);
-            moveRightSide(righty - rightx);
+        moveLeftSide(righty + rightx);
+        moveRightSide(righty - rightx);
         break;
-
+        
         case SPLIT_ARCADE:
-            moveLeftSide(lefty + rightx);
-            moveRightSide(lefty - rightx);
+        moveLeftSide(lefty + rightx);
+        moveRightSide(lefty - rightx);
         break;
-
+        
         case FLIPPED_SPLIT_ARCADE:
-            moveLeftSide(righty + leftx);
-            moveRightSide(righty - leftx);
+        moveLeftSide(righty + leftx);
+        moveRightSide(righty - leftx);
         break;
     }
 }
@@ -271,132 +277,201 @@ There is PID, Continuous Movement and more!!
 // driveTolerance: exit when within this many inches of the target (default 0.5").
 // driveHeadingKp: proportional gain for straight-drive heading correction (default 2.0).
 void PID_driveInches(double inches, int maxSpeed = 127,
-                    double driveTolerance = 0.5, bool holdHeading = false, 
-                     double driveHeadingKp = 2.0) {
-    // Reset PID state so each call starts fresh.
-    drivePIDConfig.prev_error = 0;
-    drivePIDConfig.integral   = 0;
-
-    // Snapshot starting pose and time.
-    double x0   = pose.x;
-    double y0   = pose.y;
-    double a0   = pose.angle;
-    double a0_rad = a0 * (M_PI / 180.0);
-    uint32_t startTime = pros::millis();
-
-    while (true) {
-        // Timeout check.
-        if (pros::millis() - startTime >= (uint32_t)drivePIDConfig.timeout) break;
-
-        // Update odometry (honours whatever odomConfig was set in main).
-        updatePose();
-
-        // Project pose displacement onto the starting forward vector.
-        double traveled = (pose.x - x0) * std::sin(a0_rad)
-                        + (pose.y - y0) * std::cos(a0_rad);
-
-        // Tolerance check.
-        if (std::fabs(inches - traveled) < driveTolerance) break;
-
-        // PID output and clamp to max speed.
-        double output = calculatePID(traveled, inches, drivePIDConfig);
-        output = std::max(-(double)maxSpeed, std::min((double)maxSpeed, output));
-
-        // Optional heading correction: steer back to the starting angle.
-        double correction = holdHeading ? driveHeadingKp * wrap180(a0 - pose.angle) : 0.0;
-
-        moveLeftSide ((int)(output - correction));
-        moveRightSide((int)(output + correction));
+    double driveTolerance = 0.5, bool holdHeading = false, 
+    double driveHeadingKp = 2.0) {
+        // Reset PID state so each call starts fresh.
+        drivePIDConfig.prev_error = 0;
+        drivePIDConfig.integral   = 0;
         
-        pros::delay(10);
+        // Snapshot starting pose and time.
+        double x0   = pose.x;
+        double y0   = pose.y;
+        double a0   = pose.angle;
+        double a0_rad = a0 * (M_PI / 180.0);
+        uint32_t startTime = pros::millis();
+        
+        while (true) {
+            // Timeout check.
+            if (pros::millis() - startTime >= (uint32_t)drivePIDConfig.timeout) break;
+            
+            // Update odometry (honours whatever odomConfig was set in main).
+            updatePose();
+            
+            // Project pose displacement onto the starting forward vector.
+            double traveled = (pose.x - x0) * std::sin(a0_rad)
+            + (pose.y - y0) * std::cos(a0_rad);
+            
+            // Tolerance check.
+            if (std::fabs(inches - traveled) < driveTolerance) break;
+            
+            // PID output and clamp to max speed.
+            double output = calculatePID(traveled, inches, drivePIDConfig);
+            output = std::max(-(double)maxSpeed, std::min((double)maxSpeed, output));
+            
+            // Optional heading correction: steer back to the starting angle.
+            double correction = holdHeading ? driveHeadingKp * wrap180(a0 - pose.angle) : 0.0;
+            
+            moveLeftSide ((int)(output - correction));
+            moveRightSide((int)(output + correction));
+            
+            pros::delay(10);
+        }
+        
+        // Stop both sides when done.
+        moveLeftSide(0);
+        moveRightSide(0);
     }
     
-    // Stop both sides when done.
-    moveLeftSide(0);
-    moveRightSide(0);
-}
-
-//Moves the robot using a maintained velocity instead of using PID
-/*
-This function takes in:
-inches: how many inches you want to drive
-speed: the speed that is maintained the entire time that the robot is driving
-exitRangeIn: How far you want to be from the goal to exit the function
-holdHeading: do you want angle correction while driving?
-holdHeadingkp: if you are using hold heading, the kP for holdHeading
-*/
-void continuousDrive(double inches, int speed, double exitRangeIn, 
-            bool holdHeading, double holdHeadingkp){
-    drivePIDConfig.prev_error = 0;
-    drivePIDConfig.integral   = 0;
-
-    double startingX = pose.x;
-    double startingY = pose.y;
-    double startingAngle = pose.angle;
-    double startingAngleR = startingAngle * (M_PI/180.0);
-
-    uint32_t startTime = pros::millis();
-
-    while(true){
-        //Checking if function has been longer than timeout
-        if(pros::millis() - startTime >= (uint32_t)drivePIDConfig.timeout) {
-            break;
-        }
-        //Updates the pose
-        updatePose();
-        double traveled = (pose.x - startingX) * std::sin(startingAngleR)
-                        + (pose.y - startingY) * std::cos(startingAngleR);
-
-        //checks if traveled distance is greater than exitCondition
-        if(std::fabs(inches-traveled) < exitRangeIn){
-            break;
-        }
-
-        double correction = holdHeading ? holdHeadingkp * wrap180(startingAngle - pose.angle) : 0.0;
-
-        moveLeftSide((int)speed - correction);
-        moveRightSide((int)speed + correction);
+    //Moves the robot using a maintained velocity instead of using PID
+    /*
+    This function takes in:
+    inches: how many inches you want to drive
+    speed: the speed that is maintained the entire time that the robot is driving
+    exitRangeIn: How far you want to be from the goal to exit the function
+    holdHeading: do you want angle correction while driving?
+    holdHeadingkp: if you are using hold heading, the kP for holdHeading
+    */
+   void continuousDrive(double inches, int speed, double exitRangeIn, 
+    bool holdHeading, double holdHeadingkp){
+        drivePIDConfig.prev_error = 0;
+        drivePIDConfig.integral   = 0;
         
-        pros::delay(10);
+        double startingX = pose.x;
+        double startingY = pose.y;
+        double startingAngle = pose.angle;
+        double startingAngleR = startingAngle * (M_PI/180.0);
+        
+        uint32_t startTime = pros::millis();
+        
+        while(true){
+            //Checking if function has been longer than timeout
+            if(pros::millis() - startTime >= (uint32_t)drivePIDConfig.timeout) {
+                break;
+            }
+            //Updates the pose
+            updatePose();
+            double traveled = (pose.x - startingX) * std::sin(startingAngleR)
+            + (pose.y - startingY) * std::cos(startingAngleR);
+            
+            //checks if traveled distance is greater than exitCondition
+            if(std::fabs(inches-traveled) < exitRangeIn){
+                break;
+            }
+            
+            double correction = holdHeading ? holdHeadingkp * wrap180(startingAngle - pose.angle) : 0.0;
+            
+            moveLeftSide((int)speed - correction);
+            moveRightSide((int)speed + correction);
+            
+            pros::delay(10);
+        }
+        
     }
+    
+    // Turn a set number of degrees using the PID config set via setTurnPID().
+    // degrees      : how much to turn; positive = CW, negative = CCW.
+    // maxSpeed     : motor power cap, 0..127.
+    // turnTolerance: exit when within this many degrees of the target (default 1.0°).
+    void PID_turnDegrees(double degrees, int maxSpeed = 127, double turnTolerance = 1.0) {
+        turnPIDConfig.prev_error = 0;
+        turnPIDConfig.integral   = 0;
+        
+        if (mirrored) degrees = -degrees;
+        
+        double a0 = pose.angle;
+        uint32_t startTime = pros::millis();
+        
+        while (true) {
+            if (pros::millis() - startTime >= (uint32_t)turnPIDConfig.timeout) break;
+            
+            updatePose();
+            
+            // Signed heading change since the start, wrapped to [-180, 180].
+            double turned = wrap180(pose.angle - a0);
+            
+            if (std::fabs(degrees - turned) < turnTolerance) break;
+            
+            double output = calculatePID(turned, degrees, turnPIDConfig);
+            output = std::max(-(double)maxSpeed, std::min((double)maxSpeed, output));
+            
+            // Positive output = CW: right side forward, left side backward.
+            moveLeftSide (-(int)output);
+            moveRightSide( (int)output);
+            
+            pros::delay(10);
+        }
+        
+        moveLeftSide(0);
+        moveRightSide(0);
+    }
+    
+    enum swingSide {
+        LOCK_LEFT  = 0,  // left side held, right side drives
+        LOCK_RIGHT = 1   // right side held, left side drives
+    };
 
-}
-
-// Turn a set number of degrees using the PID config set via setTurnPID().
-// degrees      : how much to turn; positive = CW, negative = CCW.
-// maxSpeed     : motor power cap, 0..127.
-// turnTolerance: exit when within this many degrees of the target (default 1.0°).
-void PID_turnDegrees(double degrees, int maxSpeed = 127, double turnTolerance = 1.0) {
+    // Swing-turn to an ABSOLUTE heading by pivoting around one locked side.
+    // targetAngle  : absolute heading in degrees (0 = forward, CW positive).
+    // lockedSide   : which side stays still (LOCK_LEFT or LOCK_RIGHT).
+    // maxSpeed     : motor power cap on the driving side, 0..127.
+    // turnTolerance: exit when within this many degrees of target (default 1.0).
+    void PID_swingToAngle(double targetAngle, swingSide lockedSide,
+        int maxSpeed = 127, double turnTolerance = 1.0) {
     turnPIDConfig.prev_error = 0;
     turnPIDConfig.integral   = 0;
 
-    if (mirrored) degrees = -degrees;
+    if (mirrored) {
+        targetAngle = -targetAngle;
+        lockedSide  = (lockedSide == LOCK_LEFT) ? LOCK_RIGHT : LOCK_LEFT;
+    }
 
-    double a0 = pose.angle;
+    // Hold the locked side in place with brake mode; restore coast on exit.
+    if (lockedSide == LOCK_LEFT) {
+        for (auto& m : leftMotors)  {
+            m.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        }
+    } else {
+        for (auto& m : rightMotors) {
+            m.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        }
+    }
+
     uint32_t startTime = pros::millis();
 
     while (true) {
-        if (pros::millis() - startTime >= (uint32_t)turnPIDConfig.timeout) break;
+        if (pros::millis() - startTime >= (uint32_t)turnPIDConfig.timeout) {
+            break;
+        }
 
         updatePose();
 
-        // Signed heading change since the start, wrapped to [-180, 180].
-        double turned = wrap180(pose.angle - a0);
+        // Shortest signed error to the absolute target heading, [-180,180].
+        double error = wrap180(targetAngle - pose.angle);
+        if (std::fabs(error) < turnTolerance) {
+            break;
+        } 
 
-        if (std::fabs(degrees - turned) < turnTolerance) break;
-
-        double output = calculatePID(turned, degrees, turnPIDConfig);
+        double output = calculatePID(0.0, error, turnPIDConfig); // goal-current = error
         output = std::max(-(double)maxSpeed, std::min((double)maxSpeed, output));
 
-        // Positive output = CW: right side forward, left side backward.
-        moveLeftSide (-(int)output);
-        moveRightSide( (int)output);
+        // Drive only the free side; hold the locked side at 0.
+        if (lockedSide == LOCK_LEFT) {
+            moveLeftSide(0);
+            moveRightSide(-(int)output); // +error (need CW) -> right side backward
+        } else {
+            moveLeftSide((int)output);   // +error (need CW) -> left side forward
+            moveRightSide(0);
+        }
 
         pros::delay(10);
     }
 
     moveLeftSide(0);
     moveRightSide(0);
+
+    // Restore coast so the held side doesn't stay locked for later moves.
+    for (auto& m : leftMotors)  m.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
+    for (auto& m : rightMotors) m.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
 }
 
 private:
