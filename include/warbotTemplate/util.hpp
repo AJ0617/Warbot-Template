@@ -3,6 +3,13 @@
 #include "warbotTemplate/logo_data.hpp"
 
 namespace warbots {
+    
+template <typename Condition>
+void waitUntil(Condition condition) {
+  while (!condition()) {
+    pros::delay(10);
+  }
+}
 
     inline void screenPrint(const std::string text, int line = 0,
                             pros::text_format_e_t fmt = pros::E_TEXT_MEDIUM,

@@ -1,12 +1,6 @@
 #include "main.h"
 
 
-template <typename Condition>
-void waitUntil(Condition condition) {
-  while (!condition()) {
-    pros::delay(10);
-  }
-}
 
 // To add a new auto: declare it in autons.h, add one line below, implement it.
 void register_autons() {
