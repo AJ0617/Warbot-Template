@@ -34,3 +34,6 @@ void blueAuto() {
 void skills() {
     // skills autonomous routine
 }
+// Feel Free to add more autos Below!!!
+
+// void newAuto(){}

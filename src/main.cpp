@@ -4,11 +4,11 @@
 warbots::Drive drive(
 	{10},  // Left Motors ID
 	{-4},  // Right Motors ID
-	4.125,  // Wheel Diameter
+	4.125, // Wheel Diameter
 	0.4,   // Gear Ratio = driving gear / driven gear (motor gear teeth / wheel gear teeth)
-	     // Direct drive = 1. Example: 12T motor gear -> 36T wheel gear = 12/36 = 0.333
+	       // Direct drive = 1. Example: 12T motor gear -> 36T wheel gear = 12/36 = 0.333
 	true,  // Are you using an IMU on the Robot?
-	20   // If you are using an IMU, put the motor port here, if you are not using an IMU, leave at 0
+	20     // If you are using an IMU, put the motor port here, if you are not using an IMU, leave at 0
 );
 
 
