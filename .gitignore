@@ -6,6 +6,9 @@
 *.bin
 *.elf
 
+.idea/workspace.xml
+.idea/vcs.xml
+
 # PROS
 bin/
 .vscode/
