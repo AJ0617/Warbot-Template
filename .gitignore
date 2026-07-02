@@ -8,8 +8,6 @@
 .docusaurus
 .cache-loader
 
-.idea/vcs.xml
-
 # Misc
 .DS_Store
 .env.local
