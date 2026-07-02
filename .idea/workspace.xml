@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170d7b7a-d848-4c9d-bde8-a705fab98fb2" name="Changes" comment="starting to make docs, making about warbot template page currently" />
+    <list default="true" id="170d7b7a-d848-4c9d-bde8-a705fab98fb2" name="Changes" comment="jetbrains stuff and git">
+      <change afterPath="$PROJECT_DIR$/src/pages/autoDrive.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/subsystems.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
