@@ -1,0 +1,46 @@
+# Step 1: Create the Necessary Files
+
+To create a subsystem, we need to create two new files: a cpp and a hpp file. CPP files are common files that contain code
+written in C++. HPP files are header files that also contain code written in C++.
+The difference between them is that 
+CPP files are used to define what the function does, while HPP files are used to declare functions and objects.
+
+[//]: # (Photo of diagram between cpp and hpp)
+
+Since we are creating an intake subsystem, we will create a cpp file called intake.cpp and a hpp file called intake.hpp. 
+Both of these will be created inside the src folder.
+Depending on the subsystem you are coding, your subsystem name might be different from mine, and that's okay. Make sure
+to name both of the files the same, one will end in .cpp and the other will end in .hpp but name them the same so they can
+communicate with each other.
+
+
+Then we will create a new folder called intake in the src folder. We do this to organize the different subsystems in the
+src folder. 
+
+Now that your files are created, we are going to open the header file, for me it will me intake.hpp, and add the 
+following code at the top:
+
+This is so this file has access to the rest of the code in the project.
+
+Now we are going to open the include folder and look for the file called main.h. This file houses all sensors, motors,
+and other features that can be used throughout the project. Scroll down until you find the comment that says
+"include more files here."
+
+You are then going to write the following code:
+
+./src/intake/intake.hpp
+//make sure it is the header file
+
+You add this file to the include folder so we can access this subsystem code in other files such as the main file or the
+autons file. The header file acts at the bridge between your subsystem file and the rest of the code.
+
+
+Now go back to your subsystem header file and you are ready to start coding!
+
+
+
+
+
+
+
+
