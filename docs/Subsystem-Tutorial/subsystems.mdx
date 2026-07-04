@@ -1,0 +1,48 @@
+---
+sidebar_position: 1
+---
+
+# Subsystem Architecture
+
+Every robot has different subsystems such as a drivetrain or a manipulator or a claw.
+Each subsystem plays a big part in a match, whether you win by a large amount or a small amount.
+It's also important to keep each subsystem organized not only mechanically but also in your code.
+It should be easy to debug a bug that happens during a match, such as auto timing not working properly
+or your robot's arm goes too high.
+
+This can be solved by creating subsystems in your code.
+Subsystems help take your code from unorganized and all over the place to organized and
+easy to find specific things for each subsystem. For example, if your arm control does not work as intended during a match,
+you can open your code and open the arm subsystem file to debug the arm control. This is better instead of looking through
+hundreds of lines of code in a project without different subsystem files.
+That way you are ready for the next match and it BEAR-LY takes any time.
+
+Your robot code architecture probably works like this:
+
+You have your main.cpp file that contains all of your arm and drivetrain control code and maybe another file for autos.
+
+But if you decide to organize your code into subsystems, you will have a file for each subsystem. This is what your robot
+code architecture might look like:
+
+Each subsystem file will contain all the code for that subsystem, and then you use these functions in main to control the robot.
+This helps keep your code organized and easy to debug.
+
+
+## How to make subsystems
+
+The best thing to do before writing a single line of code is plan out what your subsystem or feature should do. Write out
+the code in English first on a piece of paper or a whiteboard so you can get a good understanding of what you want to do. After you plan it out, you can start
+writing the code for the feature or subsystem. For a more detailed explanation, go here.
+
+### Start with a plan
+
+Let's say you want to make a subsystem for your intake. You want your intake to
+- Intake game pieces such as rings or pins
+- Have an outtake button just in case it gets jammed or you intake an opponent's game piece.
+- Easy speed control
+- A way to unjam the intake automatically.
+
+Of course, your plan can be longer than this for a more complicated subsystem. This is just a simple example for you to
+get started with subsystems, and hopefully, after this tutorial, you'll be able to make better subsystem code while being
+straightforward.
+

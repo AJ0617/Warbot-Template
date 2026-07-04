@@ -1,0 +1,8 @@
+{
+  "label": "Extras",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "These are some extra tips and tricks, coding terms, and way more things that can be useful when programming"
+  }
+}

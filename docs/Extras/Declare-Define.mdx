@@ -1,0 +1,44 @@
+---
+sidebar_position: 3
+---
+# Declare and Define
+
+To write code, you need objects you can write code with. In this step, we will be going over how to declare and define objects
+and functions so you can use them to write code for your robot. Declaring and defining may sound similar but are two
+different things.
+
+## What is the difference between declaring and defining?
+
+### Declaring
+Declaring is when you create a new object or function,
+Declaring is when you create a new object or function, but it does not have a value yet. The following code is an
+example of declaring a variable and a function.
+```C++
+// This is in my subsystem header file, the file that ends in .hpp
+
+int intakeSpeed;
+void intake(int speed);
+```
+### Defining
+Defining is when you give a declared object or function a value. The following code is an example of defining the variable
+and function we declared earlier.
+```C++
+// This is in my subsystem C++ file, the file that ends in .cpp
+
+int intakeSpeed = 127;
+void intake(int speed){
+Intake.move(speed);
+}
+```
+### Both in one line
+You'll also see examples of both declaring and defining in the same instance. For example, we can declare and define the
+intakeSpeed variable in the same line of code! This is usually done without subsystems and a common practice for variables.
+
+```C++
+int intakeSpeed = -127;
+void unjamIntake(){
+Intake.move(intakeSpeed);
+}
+```
+
+
