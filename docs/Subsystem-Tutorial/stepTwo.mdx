@@ -3,18 +3,61 @@ sidebar_position: 3
 ---
 # Step 2: Create Objects and functions
 
-In order to program a robot, we need devices to program
+To program a robot, we need devices to program
 with, such as a motor or a sensor. In this step,
 we are going to take a look at how to create objects
 and functions to use.
 
 ## Declare objects
-First, lets's look back to our plan. We want to
-intake and outtake. In order to do that, we need
-the intake motor and two seperate functions, one
+First, let's look back to our plan. 
+
+
+We want to intake and outtake. To do that, we need
+the intake motor and two separate functions, one
 to intake and one to outtake. So to do that,
-lets's first declare and define the motor. If you
-don't know the different between declare and define,
+let's first declare and define the motor. If you
+don't know the difference between declaring and defining,
 you can look at this page for an explanation about
 the difference.
+
+From the last step, our file looks like this:
+
+Kind of Empty, Right? Well, that's going to change because 
+now we are going to add our objects and functions!!
+
+First, we are going to add a motor. We'll call it intakeMotor.
+
+```cpp
+inline pros::Motor intakeMotor;
+```
+
+Since our plan wants to intake and outtake, we can use
+a single function to do both. But how can we do that?
+The answer is we can add parameters to our function.
+So instead of creating two separate functions like this:
+```cpp
+//Declaring and Defining in a single file. 
+void intake() {
+    intakeMotor.move(127);
+}
+void outtake(){
+    intakeMotor.move(-127)
+}
+```
+We can use a function with a paramter for intake speed
+like this:
+```cpp
+void intake(int speed) {
+    intakeMotor.move(speed);
+}
+```
+This works because we can pass in any value to change the
+speed of the motor.
+
+Since we are only defining the function, it looks like this
+```cpp
+void intake(int speed); 
+```
+In the next step, we will define our function. 
+
 
