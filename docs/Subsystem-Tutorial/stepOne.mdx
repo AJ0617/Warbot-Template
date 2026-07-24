@@ -4,33 +4,27 @@ sidebar_position: 2
 
 # Step 1: Create the Necessary Files
 
-To create a subsystem, we need to create two new files: a cpp and a hpp file. CPP files are common files that contain code
-written in C++. HPP files are header files that also contain code written in C++.
-The difference between them is that
-CPP files are used to define what the function does, while HPP files are used to declare functions and objects.
+To create a subsystem, we need to create a new file called a header file. Header files end in .hpp.
 
 [//]: # (Photo of diagram between cpp and hpp)
 
-Since we are creating an intake subsystem, we will create a cpp file called intake.cpp and a hpp file called intake.hpp.
-Both of these will be created inside the src folder.
-Depending on the subsystem you are coding, your subsystem name might be different from mine, and that's okay. Make sure
-to name both of the files the same, one will end in .cpp and the other will end in .hpp but name them the same so they can
-communicate with each other.
+Since we are creating an intake subsystem, we will create a hpp file called intake.hpp.
+This file will be created inside the src folder. (src is short for the word source)
+Depending on the subsystem you are coding, your subsystem name might be different from mine, and that's okay. 
 
-
-Then we will create a new folder called intake in the src folder. We do this to organize the different subsystems in the
-src folder.
+Then we will create a new folder called Subsytems in the src folder. We do this to organize the subsystems in the
+src folder so it doesn't get too cluttered with the main.cpp and autons.cpp files.
 
 Now that your files are created, we are going to open the header file, for me it will me intake.hpp, and add the
 following code at the top:
 
-This is so this file has access to the rest of the code in the project.
+This code is added so this file has access to the rest of the code in the project.
 
 Now we are going to open the include folder and look for the file called main.h. This file houses all sensors, motors,
 and other features that can be used throughout the project. Scroll down until you find the comment that says
 "include more files here."
 
-You are then going to write the following code:
+You are going to make the file accessible anywhere in the project by writing the following code:
 
 ./src/intake/intake.hpp
 //make sure it is the header file
