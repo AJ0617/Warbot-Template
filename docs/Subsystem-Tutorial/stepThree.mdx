@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 # Step 3: Using the functions
 
-Now that we have functions to control our intake motor, let's incorperate them into main.
+Now that we have functions to control our intake motor, let's incorporate them into main.
 
 If we scroll down all the way in the main.cpp file, we see opControl function. Inside there, there is a
 while(true) loop. This means it runs periodically until the driver control is over.
@@ -33,9 +33,59 @@ void opcontrol() {
 	}
 }
 ```
-Since we want two separate buttons for intake and outtake, we can map right trigger to intake and right bumper
-to outtake. We only want the motor to run when we are holding the button and when no button is being held,
+Since we want two separate buttons for intake and outtake, we can map right trigger(R2) to intake and right bumper
+to outtake(R1). We only want the motor to run when we are holding the button and when no button is being held,
 then no motors run. 
 
 [//]: # (Picture of If statement logic)
+
+
+So to do that, we need to get when the controller button is being held, and we do that by writing this piece of code as a condition to
+the if statement. Need more understanding about if statements?? Check out the if statement explanation here!!
+
+```cpp
+if(master.get_digital(BUTTON_L2)){
+    //Motor code
+ }
+```
+Now we add the function we want to run when the R2 button is being held
+which would be the `intake()` function. With the function included, this is what our
+if statement looks like currently:
+```cpp
+if(master.get_digital(BUTTON_R2)){
+    intake(); //Runs the intake at 127
+ }
+```
+We also need to add the button to outtake which will be R1. To do that, we can
+write `else if(condition){}` below the if statement we wrote already. Our condition will be
+similar to the condition in the first if statement, but instead we are using R1.
+The code we will add inside the curly brackets(aka code block) is the `outtake()` function 
+because we want to outtake while holding R1. So far, this is what we have:
+```cpp
+if(master.get_digital(BUTTON_R2)){
+    intake(); //Runs the intake at 127
+}
+else if(master.get_digital(BUTTON_R1)){
+    outtake();
+}
+```
+We also need to add something so the motor stops spinning when neither button is being held.
+To do this we add an else statement which looks like this: `else{}`. It doesn't take in a condition
+because this only runs when the if statements above are not true. So we can tell the motor to stop
+spinning when neither button is being held by adding `intakeMotor.move(0)` inside the brackets.
+```cpp
+if(master.get_digital(BUTTON_R2)){
+    intake(); //Runs the intake at 127
+}
+else if(master.get_digital(BUTTON_R1)){
+    outtake();
+}
+else{
+    intakeMotor.move(0);
+}
+```
+That completes the if statement!! We can add this to main.cpp at the bottom in `opcontrol()` and
+now we can have intake control with our controller. 
+
+
 

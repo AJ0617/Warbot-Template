@@ -1,0 +1,53 @@
+---
+sidebar_position: 3
+---
+# If Statements
+
+Every if statement has two things, a condition and a code block.
+```cpp
+if(condition){
+    //code block
+}
+```
+The condition is exactly what it sounds like, it's the condition it waits for before running the code block. The condition
+is put inside the parentheses right next to the `if` word.
+The condition can be many things that return true or false. These can be
+- Controller buttons being pressed
+- Motor speed greater than a certain value
+- A distance sensor reaching a certain value
+- And More!!!
+
+The code block is where the put the code you want to run when the condition is true. The code goes inside the curly
+brackets. You can put many things inside the code block such as:
+- Turning a motor on when a button is being held
+- Running the intake faster if a color sensor detects the opposing alliances color
+- Slowing down your motors if they start to overheat
+
+Then, if you want something else to run if the condition turns false, you can add an `else{}` statement. It
+doesn't need a condition because this only runs if the if statement is false.
+```cpp
+if(condition){
+    //code block
+}
+else{
+    //code block
+}
+```
+This can be useful in many cases. For example, let's say you have an if statement that runs the intake when a button is
+being held. Once you let go, the intake will keep spinning. To fix that, you add an else statement to stop the intake.
+
+You can also add more ifs if you need to, you would add an `else if()` below the first if statement.
+```cpp
+if(condition){
+    //code block
+}
+else if(condition){
+    //code block
+}
+```
+This can be useful if you want another thing to happen if the `if` statement above is false. For example, let's say
+I have an if statement that intakes when I hold R2 and stops the intake when I let go and I want to be able to outtake. 
+We can add `else if()` below the first if statement and add outtake code to the code block. 
+
+The reason we don't write separate if statement is because since they are separate, both statements can run at the same
+time which will cause the motor to malfunction.
