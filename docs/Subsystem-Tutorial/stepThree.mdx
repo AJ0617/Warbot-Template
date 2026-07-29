@@ -1,0 +1,41 @@
+---
+sidebar_position: 2
+---
+# Step 3: Using the functions
+
+Now that we have functions to control our intake motor, let's incorperate them into main.
+
+If we scroll down all the way in the main.cpp file, we see opControl function. Inside there, there is a
+while(true) loop. This means it runs periodically until the driver control is over.
+
+```cpp
+void opcontrol() {
+	pros::Controller master(pros::E_CONTROLLER_MASTER);
+	
+	drive.setDriveType(warbots::Drive::TANK);
+	// drive.setDriveType(warbots::Drive::SINGLE_ARCADE);
+	// drive.setDriveType(warbots::Drive::FLIPPED_SINGLE_ARCADE);
+	// drive.setDriveType(warbots::Drive::SPLIT_ARCADE);
+	// drive.setDriveType(warbots::Drive::FLIPPED_SPLIT_ARCADE);
+	while (true) {
+		warbots::drawLogo();
+		drive.updatePose();
+		// warbots::screenPrint("Arm: " + warbots::doubleToString(arm.get_position(), 2), 2, pros::E_TEXT_MEDIUM);
+		drive.control(master);
+		warbots::screenPrint("x"+ warbots::doubleToString(drive.getPose().x,2), 3, pros::E_TEXT_MEDIUM_CENTER);
+	   	warbots::screenPrint("y"+ warbots::doubleToString(drive.getPose().y,2), 4, pros::E_TEXT_MEDIUM_CENTER);
+	   	warbots::screenPrint("angle"+ warbots::doubleToString(drive.getPose().angle,2), 5, pros::E_TEXT_MEDIUM_CENTER);
+		examplePIDFunction(700); // drive arm to 200 encoder ticks
+		
+		
+		
+		pros::delay(20);
+	}
+}
+```
+Since we want two separate buttons for intake and outtake, we can map right trigger to intake and right bumper
+to outtake. We only want the motor to run when we are holding the button and when no button is being held,
+then no motors run. 
+
+[//]: # (Picture of If statement logic)
+

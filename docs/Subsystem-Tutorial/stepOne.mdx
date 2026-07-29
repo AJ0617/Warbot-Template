@@ -6,29 +6,37 @@ sidebar_position: 2
 
 To create a subsystem, we need to create a new file called a header file. Header files end in .hpp.
 
-[//]: # (Photo of diagram between cpp and hpp)
+[//]: # (Photo of hpp)
 
 Since we are creating an intake subsystem, we will create a hpp file called intake.hpp.
 This file will be created inside the src folder. (src is short for the word source)
 Depending on the subsystem you are coding, your subsystem name might be different from mine, and that's okay. 
 
-Then we will create a new folder called Subsytems in the src folder. We do this to organize the subsystems in the
+Then we will create a new folder called Subsystems in the src folder. We do this to organize the subsystems in the
 src folder so it doesn't get too cluttered with the main.cpp and autons.cpp files.
 
-Now that your files are created, we are going to open the header file, for me it will me intake.hpp, and add the
+Now that your files are created, we are going to open the header file, for me, it will me intake.hpp, and add the
 following code at the top:
+```cpp
+#pragma once
+#include "main.h"
+```
 
-This code is added so this file has access to the rest of the code in the project.
+#Include "main.h" is added so this file has access to the rest of the code in the project.
+#pragma is added so this file is only created once when the project is compiled.
+
 
 Now we are going to open the include folder and look for the file called main.h. This file houses all sensors, motors,
 and other features that can be used throughout the project. Scroll down until you find the comment that says
 "include more files here."
 
-You are going to make the file accessible anywhere in the project by writing the following code:
 
+
+You are going to make the file accessible anywhere in the project by writing the following code:
+```cpp
 ./src/intake/intake.hpp
 //make sure it is the header file
-
+```
 You add this file to the include folder so we can access this subsystem code in other files such as the main file or the
 autons file. The header file acts at the bridge between your subsystem file and the rest of the code.
 

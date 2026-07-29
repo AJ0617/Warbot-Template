@@ -21,6 +21,13 @@ you can look at this page for an explanation about
 the difference.
 
 From the last step, our file looks like this:
+```cpp
+#pragma once
+#include "main.h"
+
+
+```
+
 
 Kind of Empty, Right? Well, that's going to change because 
 now we are going to add our objects and functions!!
@@ -28,7 +35,7 @@ now we are going to add our objects and functions!!
 First, we are going to add a motor. We'll call it intakeMotor.
 
 ```cpp
-inline pros::Motor intakeMotor;
+inline pros::Motor intakeMotor(10);
 ```
 
 Since our plan wants to intake and outtake, we can use
@@ -47,17 +54,13 @@ void outtake(){
 We can use a function with a paramter for intake speed
 like this:
 ```cpp
-void intake(int speed) {
+void moveMotor(int speed) {
     intakeMotor.move(speed);
 }
 ```
 This works because we can pass in any value to change the
 speed of the motor.
 
-Since we are only defining the function, it looks like this
-```cpp
-void intake(int speed); 
-```
-In the next step, we will define our function. 
+Next up: Using the functions we wrote
 
 
