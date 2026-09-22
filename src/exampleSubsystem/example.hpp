@@ -9,7 +9,7 @@ inline pros::Motor arm(-8);
 inline warbots::PIDconfigs armPID = {0.7, 0.001, 0.1, 2000.0};
 
 //Create Functions down here, they will be accessible in your example.cpp file for you to define
-void examplePIDFunction(double goal) {
+inline void examplePIDFunction(double goal) {
     double current = arm.get_position();
     double output  = warbots::calculatePID(current, goal, armPID);
     arm.move((int32_t)output);
